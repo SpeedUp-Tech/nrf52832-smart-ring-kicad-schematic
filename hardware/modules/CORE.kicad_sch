@@ -1,0 +1,2117 @@
+(kicad_sch (version 20230121) (generator "KiCAD-MCP-Server") (uuid 550ca951-61e4-4ce7-a5ee-b87753362c35) (paper "A2") (title_block (title "CORE") (date "2026-08-18") (rev "") (company "") (comment 1 "") (comment 2 "") (comment 3 "") (comment 4 "")) (lib_symbols 
+
+(symbol "Radio_Frequency_Chip_Antenna:KH-1608-H08__CORE__a1" (pin_names (offset 1.016)) (in_bom yes) (on_board yes) 
+
+(property "Reference" "COR" (id 0) (at 15.24 5.08 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "KH-1608-H08" (id 1) (at 15.24 -22.86 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectFootprints:ANT-SMD_L1.7-W0.9" (id 2) (at 15.24 -25.4 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at 15.24 -27.94 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "KH-1608-H08__CORE__a1_0_1" 
+
+(polyline (pts 
+
+(xy 1.27 -0.0) 
+
+(xy 29.21 -0.0) 
+
+(xy 29.457765 -0.024403) 
+
+(xy 29.696008 -0.096673) 
+
+(xy 29.915574 -0.214034) 
+
+(xy 30.108026 -0.371974) 
+
+(xy 30.265966 -0.564426) 
+
+(xy 30.383327 -0.783992) 
+
+(xy 30.455597 -1.022235) 
+
+(xy 30.48 -1.27) 
+
+(xy 30.48 -16.51) 
+
+(xy 30.455597 -16.757765) 
+
+(xy 30.383327 -16.996008) 
+
+(xy 30.265966 -17.215574) 
+
+(xy 30.108026 -17.408026) 
+
+(xy 29.915574 -17.565966) 
+
+(xy 29.696008 -17.683327) 
+
+(xy 29.457765 -17.755597) 
+
+(xy 29.21 -17.78) 
+
+(xy 1.27 -17.78) 
+
+(xy 1.022235 -17.755597) 
+
+(xy 0.783992 -17.683327) 
+
+(xy 0.564426 -17.565966) 
+
+(xy 0.371974 -17.408026) 
+
+(xy 0.214034 -17.215574) 
+
+(xy 0.096673 -16.996008) 
+
+(xy 0.024403 -16.757765) 
+
+(xy 0.0 -16.51) 
+
+(xy 0.0 -1.27) 
+
+(xy 0.024403 -1.022235) 
+
+(xy 0.096673 -0.783992) 
+
+(xy 0.214034 -0.564426) 
+
+(xy 0.371974 -0.371974) 
+
+(xy 0.564426 -0.214034) 
+
+(xy 0.783992 -0.096673) 
+
+(xy 1.022235 -0.024403) 
+
+(xy 1.27 -0.0)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type background)))) 
+
+(symbol "KH-1608-H08__CORE__a1_1_1" (pin input line (at 11.43 2.54 270) (length 2.54) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))) (pin input line (at 11.43 -20.32 90) (length 2.54) (name "2" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "Device:C__CORE__c1" (pin_names (offset 1.016) hide) (pin_numbers hide) (in_bom yes) (on_board yes) 
+
+(property "Reference" "COR" (id 0) (at 0.0 3.4036 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "100n" (id 1) (at 0.0 -10.9347 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectFootprints:C_0402_1005Metric" (id 2) (at 0.0 -13.4747 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at 0.0 -16.0147 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "C__CORE__c1_0_1" 
+
+(polyline (pts 
+
+(xy -0.762 -5.842) 
+
+(xy -0.762 -1.778)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy 0.762 -5.842) 
+
+(xy 0.762 -1.778)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none)))) 
+
+(symbol "C__CORE__c1_1_1" (pin passive line (at -3.81 -3.81 0) (length 3.048) (name "~" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))) (pin passive line (at 3.81 -3.81 180) (length 3.048) (name "~" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "Device:C__CORE__c10" (pin_names (offset 1.016) hide) (pin_numbers hide) (in_bom yes) (on_board yes) 
+
+(property "Reference" "COR" (id 0) (at 4.6101 2.54 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "10n" (id 1) (at 4.6101 -10.16 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectFootprints:C_0402_1005Metric" (id 2) (at 4.6101 -12.7 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at 4.6101 -15.24 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "C__CORE__c10_0_1" 
+
+(polyline (pts 
+
+(xy -2.032 -3.048) 
+
+(xy 2.032 -3.048)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -2.032 -4.572) 
+
+(xy 2.032 -4.572)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none)))) 
+
+(symbol "C__CORE__c10_1_1" (pin passive line (at 0.0 -0.0 270) (length 3.048) (name "~" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))) (pin passive line (at 0.0 -7.62 90) (length 3.048) (name "~" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "Device:C__CORE__c2" (pin_names (offset 1.016) hide) (pin_numbers hide) (in_bom yes) (on_board yes) 
+
+(property "Reference" "COR" (id 0) (at 0.0 3.4036 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "100n" (id 1) (at 0.0 -10.9347 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectFootprints:C_0402_1005Metric" (id 2) (at 0.0 -13.4747 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at 0.0 -16.0147 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "C__CORE__c2_0_1" 
+
+(polyline (pts 
+
+(xy -0.762 -5.842) 
+
+(xy -0.762 -1.778)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy 0.762 -5.842) 
+
+(xy 0.762 -1.778)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none)))) 
+
+(symbol "C__CORE__c2_1_1" (pin passive line (at -3.81 -3.81 0) (length 3.048) (name "~" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))) (pin passive line (at 3.81 -3.81 180) (length 3.048) (name "~" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "Device:C__CORE__c3" (pin_names (offset 1.016) hide) (pin_numbers hide) (in_bom yes) (on_board yes) 
+
+(property "Reference" "COR" (id 0) (at 3.9878 2.54 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "100n" (id 1) (at 3.9878 -10.16 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectFootprints:C_0402_1005Metric" (id 2) (at 3.9878 -12.7 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at 3.9878 -15.24 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "C__CORE__c3_0_1" 
+
+(polyline (pts 
+
+(xy -2.032 -3.048) 
+
+(xy 2.032 -3.048)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -2.032 -4.572) 
+
+(xy 2.032 -4.572)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none)))) 
+
+(symbol "C__CORE__c3_1_1" (pin passive line (at 0.0 -0.0 270) (length 3.048) (name "~" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))) (pin passive line (at 0.0 -7.62 90) (length 3.048) (name "~" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "Device:C__CORE__c4" (pin_names (offset 1.016) hide) (pin_numbers hide) (in_bom yes) (on_board yes) 
+
+(property "Reference" "COR" (id 0) (at 3.9878 2.54 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "4.7u" (id 1) (at 3.9878 -10.16 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectFootprints:C_0603_1608Metric" (id 2) (at 3.9878 -12.7 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at 3.9878 -15.24 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "C__CORE__c4_0_1" 
+
+(polyline (pts 
+
+(xy -2.032 -3.048) 
+
+(xy 2.032 -3.048)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -2.032 -4.572) 
+
+(xy 2.032 -4.572)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none)))) 
+
+(symbol "C__CORE__c4_1_1" (pin passive line (at 0.0 -0.0 270) (length 3.048) (name "~" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))) (pin passive line (at 0.0 -7.62 90) (length 3.048) (name "~" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "Device:C__CORE__c5" (pin_names (offset 1.016) hide) (pin_numbers hide) (in_bom yes) (on_board yes) 
+
+(property "Reference" "COR" (id 0) (at 3.9878 2.54 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "1u" (id 1) (at 3.9878 -10.16 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectFootprints:C_0402_1005Metric" (id 2) (at 3.9878 -12.7 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at 3.9878 -15.24 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "C__CORE__c5_0_1" 
+
+(polyline (pts 
+
+(xy -2.032 -3.048) 
+
+(xy 2.032 -3.048)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -2.032 -4.572) 
+
+(xy 2.032 -4.572)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none)))) 
+
+(symbol "C__CORE__c5_1_1" (pin passive line (at 0.0 -0.0 270) (length 3.048) (name "~" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))) (pin passive line (at 0.0 -7.62 90) (length 3.048) (name "~" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "Device:C__CORE__c6" (pin_names (offset 1.016) hide) (pin_numbers hide) (in_bom yes) (on_board yes) 
+
+(property "Reference" "COR" (id 0) (at 0.0 3.4036 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "15p" (id 1) (at 0.0 -10.9347 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectFootprints:C_0402_1005Metric" (id 2) (at 0.0 -13.4747 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at 0.0 -16.0147 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "C__CORE__c6_0_1" 
+
+(polyline (pts 
+
+(xy 0.762 -1.778) 
+
+(xy 0.762 -5.842)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -0.762 -1.778) 
+
+(xy -0.762 -5.842)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none)))) 
+
+(symbol "C__CORE__c6_1_1" (pin passive line (at 3.81 -3.81 180) (length 3.048) (name "~" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))) (pin passive line (at -3.81 -3.81 0) (length 3.048) (name "~" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "Device:C__CORE__c7" (pin_names (offset 1.016) hide) (pin_numbers hide) (in_bom yes) (on_board yes) 
+
+(property "Reference" "COR" (id 0) (at 0.0 3.4036 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "15p" (id 1) (at 0.0 -10.9347 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectFootprints:C_0402_1005Metric" (id 2) (at 0.0 -13.4747 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at 0.0 -16.0147 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "C__CORE__c7_0_1" 
+
+(polyline (pts 
+
+(xy 0.762 -1.778) 
+
+(xy 0.762 -5.842)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -0.762 -1.778) 
+
+(xy -0.762 -5.842)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none)))) 
+
+(symbol "C__CORE__c7_1_1" (pin passive line (at 3.81 -3.81 180) (length 3.048) (name "~" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))) (pin passive line (at -3.81 -3.81 0) (length 3.048) (name "~" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "Device:C__CORE__c8" (pin_names (offset 1.016) hide) (pin_numbers hide) (in_bom yes) (on_board yes) 
+
+(property "Reference" "COR" (id 0) (at 3.9878 2.54 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "0.8p" (id 1) (at 3.9878 -10.16 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectFootprints:C_0402_1005Metric" (id 2) (at 3.9878 -12.7 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at 3.9878 -15.24 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "C__CORE__c8_0_1" 
+
+(polyline (pts 
+
+(xy -2.032 -3.048) 
+
+(xy 2.032 -3.048)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -2.032 -4.572) 
+
+(xy 2.032 -4.572)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none)))) 
+
+(symbol "C__CORE__c8_1_1" (pin passive line (at 0.0 -0.0 270) (length 3.048) (name "~" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))) (pin passive line (at 0.0 -7.62 90) (length 3.048) (name "~" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "Device:C__CORE__c9" (pin_names (offset 1.016) hide) (pin_numbers hide) (in_bom yes) (on_board yes) 
+
+(property "Reference" "COR" (id 0) (at 3.9878 2.54 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "100p" (id 1) (at 3.9878 -10.16 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectFootprints:C_0402_1005Metric" (id 2) (at 3.9878 -12.7 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at 3.9878 -15.24 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "C__CORE__c9_0_1" 
+
+(polyline (pts 
+
+(xy -2.032 -3.048) 
+
+(xy 2.032 -3.048)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -2.032 -4.572) 
+
+(xy 2.032 -4.572)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none)))) 
+
+(symbol "C__CORE__c9_1_1" (pin passive line (at 0.0 -0.0 270) (length 3.048) (name "~" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))) (pin passive line (at 0.0 -7.62 90) (length 3.048) (name "~" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "Device:L__CORE__l1" (pin_names (offset 1.016) hide) (pin_numbers hide) (in_bom yes) (on_board yes) 
+
+(property "Reference" "COR" (id 0) (at 0.0 2.2606 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "3.9n" (id 1) (at 0.0 -9.7917 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectFootprints:L_0402_1005Metric" (id 2) (at 0.0 -12.3317 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at 0.0 -14.8717 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "L__CORE__l1_0_1" 
+
+(polyline (pts 
+
+(xy -2.54 -3.81) 
+
+(xy -2.491664 -4.053004) 
+
+(xy -2.354013 -4.259013) 
+
+(xy -2.148004 -4.396664) 
+
+(xy -1.905 -4.445) 
+
+(xy -1.661996 -4.396664) 
+
+(xy -1.455987 -4.259013) 
+
+(xy -1.318336 -4.053004) 
+
+(xy -1.27 -3.81) 
+
+(xy -1.221664 -4.053004) 
+
+(xy -1.084013 -4.259013) 
+
+(xy -0.878004 -4.396664) 
+
+(xy -0.635 -4.445) 
+
+(xy -0.391996 -4.396664) 
+
+(xy -0.185987 -4.259013) 
+
+(xy -0.048336 -4.053004) 
+
+(xy 0.0 -3.81) 
+
+(xy 0.048336 -4.053004) 
+
+(xy 0.185987 -4.259013) 
+
+(xy 0.391996 -4.396664) 
+
+(xy 0.635 -4.445) 
+
+(xy 0.878004 -4.396664) 
+
+(xy 1.084013 -4.259013) 
+
+(xy 1.221664 -4.053004) 
+
+(xy 1.27 -3.81) 
+
+(xy 1.318336 -4.053004) 
+
+(xy 1.455987 -4.259013) 
+
+(xy 1.661996 -4.396664) 
+
+(xy 1.905 -4.445) 
+
+(xy 2.148004 -4.396664) 
+
+(xy 2.354013 -4.259013) 
+
+(xy 2.491664 -4.053004) 
+
+(xy 2.54 -3.81)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none)))) 
+
+(symbol "L__CORE__l1_1_1" (pin passive line (at -3.81 -3.81 0) (length 1.27) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))) (pin passive line (at 3.81 -3.81 180) (length 1.27) (name "2" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "Device:R__CORE__r1" (pin_names (offset 1.016) hide) (pin_numbers hide) (in_bom yes) (on_board yes) 
+
+(property "Reference" "COR" (id 0) (at 4.2418 2.54 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "10k" (id 1) (at 4.2418 -10.16 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectFootprints:R_0402_1005Metric" (id 2) (at 4.2418 -12.7 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at 4.2418 -15.24 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "R__CORE__r1_0_1" 
+
+(polyline (pts 
+
+(xy -1.016 -1.27) 
+
+(xy 1.016 -1.27) 
+
+(xy 1.016 -6.35) 
+
+(xy -1.016 -6.35) 
+
+(xy -1.016 -1.27)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type background)))) 
+
+(symbol "R__CORE__r1_1_1" (pin passive line (at 0.0 -0.0 270) (length 1.27) (name "~" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))) (pin passive line (at 0.0 -7.62 90) (length 1.27) (name "~" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "Device:R__CORE__r2" (pin_names (offset 1.016) hide) (pin_numbers hide) (in_bom yes) (on_board yes) 
+
+(property "Reference" "COR" (id 0) (at 4.2418 2.54 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "10k" (id 1) (at 4.2418 -10.16 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectFootprints:R_0402_1005Metric" (id 2) (at 4.2418 -12.7 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at 4.2418 -15.24 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "R__CORE__r2_0_1" 
+
+(polyline (pts 
+
+(xy -1.016 -1.27) 
+
+(xy 1.016 -1.27) 
+
+(xy 1.016 -6.35) 
+
+(xy -1.016 -6.35) 
+
+(xy -1.016 -1.27)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type background)))) 
+
+(symbol "R__CORE__r2_1_1" (pin passive line (at 0.0 -0.0 270) (length 1.27) (name "~" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))) (pin passive line (at 0.0 -7.62 90) (length 1.27) (name "~" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "Device:R__CORE__r3" (pin_names (offset 1.016) hide) (pin_numbers hide) (in_bom yes) (on_board yes) 
+
+(property "Reference" "COR" (id 0) (at -4.2418 2.54 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "100k" (id 1) (at -4.2418 -10.16 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectFootprints:R_0402_1005Metric" (id 2) (at -4.2418 -12.7 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at -4.2418 -15.24 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "R__CORE__r3_0_1" 
+
+(polyline (pts 
+
+(xy -1.016 -1.27) 
+
+(xy 1.016 -1.27) 
+
+(xy 1.016 -6.35) 
+
+(xy -1.016 -6.35) 
+
+(xy -1.016 -1.27)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type background)))) 
+
+(symbol "R__CORE__r3_1_1" (pin passive line (at 0.0 -7.62 90) (length 1.27) (name "~" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))) (pin passive line (at 0.0 -0.0 270) (length 1.27) (name "~" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "Device:R__CORE__r4" (pin_names (offset 1.016) hide) (pin_numbers hide) (in_bom yes) (on_board yes) 
+
+(property "Reference" "COR" (id 0) (at 4.2418 2.54 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "100k" (id 1) (at 4.2418 -10.16 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectFootprints:R_0402_1005Metric" (id 2) (at 4.2418 -12.7 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at 4.2418 -15.24 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "R__CORE__r4_0_1" 
+
+(polyline (pts 
+
+(xy -1.016 -1.27) 
+
+(xy 1.016 -1.27) 
+
+(xy 1.016 -6.35) 
+
+(xy -1.016 -6.35) 
+
+(xy -1.016 -1.27)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type background)))) 
+
+(symbol "R__CORE__r4_1_1" (pin passive line (at 0.0 -0.0 270) (length 1.27) (name "~" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))) (pin passive line (at 0.0 -7.62 90) (length 1.27) (name "~" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "Device:R__CORE__r5" (pin_names (offset 1.016) hide) (pin_numbers hide) (in_bom yes) (on_board yes) 
+
+(property "Reference" "COR" (id 0) (at 4.2418 2.54 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "100k" (id 1) (at 4.2418 -10.16 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectFootprints:R_0402_1005Metric" (id 2) (at 4.2418 -12.7 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at 4.2418 -15.24 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "R__CORE__r5_0_1" 
+
+(polyline (pts 
+
+(xy -1.016 -1.27) 
+
+(xy 1.016 -1.27) 
+
+(xy 1.016 -6.35) 
+
+(xy -1.016 -6.35) 
+
+(xy -1.016 -1.27)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type background)))) 
+
+(symbol "R__CORE__r5_1_1" (pin passive line (at 0.0 -0.0 270) (length 1.27) (name "~" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))) (pin passive line (at 0.0 -7.62 90) (length 1.27) (name "~" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "Device:R__CORE__r6" (pin_names (offset 1.016) hide) (pin_numbers hide) (in_bom yes) (on_board yes) 
+
+(property "Reference" "COR" (id 0) (at -4.2418 2.54 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "33" (id 1) (at -4.2418 -10.16 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectFootprints:R_0402_1005Metric" (id 2) (at -4.2418 -12.7 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at -4.2418 -15.24 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "R__CORE__r6_0_1" 
+
+(polyline (pts 
+
+(xy -1.016 -1.27) 
+
+(xy 1.016 -1.27) 
+
+(xy 1.016 -6.35) 
+
+(xy -1.016 -6.35) 
+
+(xy -1.016 -1.27)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type background)))) 
+
+(symbol "R__CORE__r6_1_1" (pin passive line (at 0.0 -7.62 90) (length 1.27) (name "~" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))) (pin passive line (at 0.0 -0.0 270) (length 1.27) (name "~" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "Connectors:1625854-3__CORE__tp_swdclk" (pin_names (offset 1.016)) (pin_numbers hide) (in_bom yes) (on_board yes) 
+
+(property "Reference" "COR" (id 0) (at 5.58165 2.54 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "1625854-3" (id 1) (at 5.58165 -10.16 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectFootprints:TESTPOINT-SMD_L1.6-W0.8" (id 2) (at 5.58165 -12.7 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at 5.58165 -15.24 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "1625854-3__CORE__tp_swdclk_0_1" (circle (center 0.0 -1.27) (radius 1.27) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy 0.0 -2.54) 
+
+(xy 0.0 -5.08)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none)))) 
+
+(symbol "1625854-3__CORE__tp_swdclk_1_1" (pin unspecified line (at 0.0 -7.62 90) (length 2.54) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "Connectors:1625854-3__CORE__tp_swdio" (pin_names (offset 1.016)) (pin_numbers hide) (in_bom yes) (on_board yes) 
+
+(property "Reference" "COR" (id 0) (at 5.58165 2.54 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "1625854-3" (id 1) (at 5.58165 -10.16 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectFootprints:TESTPOINT-SMD_L1.6-W0.8" (id 2) (at 5.58165 -12.7 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at 5.58165 -15.24 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "1625854-3__CORE__tp_swdio_0_1" (circle (center 0.0 -1.27) (radius 1.27) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy 0.0 -2.54) 
+
+(xy 0.0 -5.08)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none)))) 
+
+(symbol "1625854-3__CORE__tp_swdio_1_1" (pin unspecified line (at 0.0 -7.62 90) (length 2.54) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "Connectors:1625854-3__CORE__tp_reset" (pin_names (offset 1.016)) (pin_numbers hide) (in_bom yes) (on_board yes) 
+
+(property "Reference" "COR" (id 0) (at 5.58165 2.54 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "1625854-3" (id 1) (at 5.58165 -10.16 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectFootprints:TESTPOINT-SMD_L1.6-W0.8" (id 2) (at 5.58165 -12.7 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at 5.58165 -15.24 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "1625854-3__CORE__tp_reset_0_1" (circle (center 0.0 -1.27) (radius 1.27) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy 0.0 -2.54) 
+
+(xy 0.0 -5.08)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none)))) 
+
+(symbol "1625854-3__CORE__tp_reset_1_1" (pin unspecified line (at 0.0 -7.62 90) (length 2.54) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "Connectors:1625854-3__CORE__tp_vref" (pin_names (offset 1.016)) (pin_numbers hide) (in_bom yes) (on_board yes) 
+
+(property "Reference" "COR" (id 0) (at 5.58165 2.54 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "1625854-3" (id 1) (at 5.58165 -10.16 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectFootprints:TESTPOINT-SMD_L1.6-W0.8" (id 2) (at 5.58165 -12.7 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at 5.58165 -15.24 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "1625854-3__CORE__tp_vref_0_1" (circle (center 0.0 -1.27) (radius 1.27) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy 0.0 -2.54) 
+
+(xy 0.0 -5.08)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none)))) 
+
+(symbol "1625854-3__CORE__tp_vref_1_1" (pin unspecified line (at 0.0 -7.62 90) (length 2.54) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "Connectors:1625854-3__CORE__tp_gnd" (pin_names (offset 1.016)) (pin_numbers hide) (in_bom yes) (on_board yes) 
+
+(property "Reference" "COR" (id 0) (at 5.58165 2.54 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "1625854-3" (id 1) (at 5.58165 -10.16 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectFootprints:TESTPOINT-SMD_L1.6-W0.8" (id 2) (at 5.58165 -12.7 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at 5.58165 -15.24 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "1625854-3__CORE__tp_gnd_0_1" (circle (center 0.0 -1.27) (radius 1.27) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy 0.0 -2.54) 
+
+(xy 0.0 -5.08)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none)))) 
+
+(symbol "1625854-3__CORE__tp_gnd_1_1" (pin unspecified line (at 0.0 -7.62 90) (length 2.54) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "RF_Radio:NRF52832-QFAA-R__CORE__u1" (pin_names (offset 1.016)) (in_bom yes) (on_board yes) 
+
+(property "Reference" "COR" (id 0) (at 53.34 6.35 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "NRF52832-QFAA-R" (id 1) (at 53.34 -166.37 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectFootprints:QFN-48_L6.0-W6.0-P0.40-BL-EP3.8" (id 2) (at 53.34 -168.91 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at 53.34 -171.45 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "NRF52832-QFAA-R__CORE__u1_0_1" 
+
+(polyline (pts 
+
+(xy 1.27 -0.0) 
+
+(xy 105.41 -0.0) 
+
+(xy 105.657765 -0.024403) 
+
+(xy 105.896008 -0.096673) 
+
+(xy 106.115574 -0.214034) 
+
+(xy 106.308026 -0.371974) 
+
+(xy 106.465966 -0.564426) 
+
+(xy 106.583327 -0.783992) 
+
+(xy 106.655597 -1.022235) 
+
+(xy 106.68 -1.27) 
+
+(xy 106.68 -158.75) 
+
+(xy 106.655597 -158.997765) 
+
+(xy 106.583327 -159.236008) 
+
+(xy 106.465966 -159.455574) 
+
+(xy 106.308026 -159.648026) 
+
+(xy 106.115574 -159.805966) 
+
+(xy 105.896008 -159.923327) 
+
+(xy 105.657765 -159.995597) 
+
+(xy 105.41 -160.02) 
+
+(xy 1.27 -160.02) 
+
+(xy 1.022235 -159.995597) 
+
+(xy 0.783992 -159.923327) 
+
+(xy 0.564426 -159.805966) 
+
+(xy 0.371974 -159.648026) 
+
+(xy 0.214034 -159.455574) 
+
+(xy 0.096673 -159.236008) 
+
+(xy 0.024403 -158.997765) 
+
+(xy 0.0 -158.75) 
+
+(xy 0.0 -1.27) 
+
+(xy 0.024403 -1.022235) 
+
+(xy 0.096673 -0.783992) 
+
+(xy 0.214034 -0.564426) 
+
+(xy 0.371974 -0.371974) 
+
+(xy 0.564426 -0.214034) 
+
+(xy 0.783992 -0.096673) 
+
+(xy 1.022235 -0.024403) 
+
+(xy 1.27 -0.0)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type background)))) 
+
+(symbol "NRF52832-QFAA-R__CORE__u1_1_1" (pin unspecified line (at 110.49 -106.68 180) (length 3.81) (name "DEC1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))) (pin unspecified line (at 110.49 -38.1 180) (length 3.81) (name "P0.00/XL1" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27))))) (pin unspecified line (at 110.49 -45.72 180) (length 3.81) (name "P0.01/XL2" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27))))) (pin unspecified line (at 60.96 3.81 270) (length 3.81) (name "P0.02/AIN0" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27))))) (pin unspecified line (at 110.49 -53.34 180) (length 3.81) (name "P0.03/AIN1" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27))))) (pin unspecified line (at 110.49 -68.58 180) (length 3.81) (name "P0.04/AIN2" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27))))) (pin unspecified line (at 110.49 -76.2 180) (length 3.81) (name "P0.05/AIN3" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27))))) (pin unspecified line (at 15.24 3.81 270) (length 3.81) (name "P0.06" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27))))) (pin unspecified line (at 30.48 3.81 270) (length 3.81) (name "P0.07" (effects (font (size 1.27 1.27)))) (number "9" (effects (font (size 1.27 1.27))))) (pin unspecified line (at -3.81 -83.82 0) (length 3.81) (name "P0.08" (effects (font (size 1.27 1.27)))) (number "10" (effects (font (size 1.27 1.27))))) (pin unspecified line (at 110.49 -83.82 180) (length 3.81) (name "P0.09/NFC1" (effects (font (size 1.27 1.27)))) (number "11" (effects (font (size 1.27 1.27))))) (pin unspecified line (at 110.49 -91.44 180) (length 3.81) (name "P0.10/NFC2" (effects (font (size 1.27 1.27)))) (number "12" (effects (font (size 1.27 1.27))))) (pin unspecified line (at -3.81 -45.72 0) (length 3.81) (name "VDD" (effects (font (size 1.27 1.27)))) (number "13" (effects (font (size 1.27 1.27))))) (pin unspecified line (at 110.49 -99.06 180) (length 3.81) (name "P0.11" (effects (font (size 1.27 1.27)))) (number "14" (effects (font (size 1.27 1.27))))) (pin unspecified line (at 110.49 -114.3 180) (length 3.81) (name "P0.12" (effects (font (size 1.27 1.27)))) (number "15" (effects (font (size 1.27 1.27))))) (pin unspecified line (at 110.49 -121.92 180) (length 3.81) (name "P0.13" (effects (font (size 1.27 1.27)))) (number "16" (effects (font (size 1.27 1.27))))) (pin unspecified line (at 7.62 3.81 270) (length 3.81) (name "P0.14/TRACE3" (effects (font (size 1.27 1.27)))) (number "17" (effects (font (size 1.27 1.27))))) (pin unspecified line (at 22.86 3.81 270) (length 3.81) (name "P0.15/TRACE2" (effects (font (size 1.27 1.27)))) (number "18" (effects (font (size 1.27 1.27))))) (pin unspecified line (at 38.1 3.81 270) (length 3.81) (name "P0.16/TRACE1" (effects (font (size 1.27 1.27)))) (number "19" (effects (font (size 1.27 1.27))))) (pin unspecified line (at 45.72 3.81 270) (length 3.81) (name "P0.17" (effects (font (size 1.27 1.27)))) (number "20" (effects (font (size 1.27 1.27))))) (pin unspecified line (at 53.34 3.81 270) (length 3.81) (name "P0.18/TRACEDATA[0]/SWO" (effects (font (size 1.27 1.27)))) (number "21" (effects (font (size 1.27 1.27))))) (pin unspecified line (at 68.58 3.81 270) (length 3.81) (name "P0.19" (effects (font (size 1.27 1.27)))) (number "22" (effects (font (size 1.27 1.27))))) (pin unspecified line (at 76.2 3.81 270) (length 3.81) (name "P0.20/TRACECLK" (effects (font (size 1.27 1.27)))) (number "23" (effects (font (size 1.27 1.27))))) (pin unspecified line (at -3.81 -99.06 0) (length 3.81) (name "P0.21/RESET" (effects (font (size 1.27 1.27)))) (number "24" (effects (font (size 1.27 1.27))))) (pin unspecified line (at 15.24 -163.83 90) (length 3.81) (name "SWDCLK" (effects (font (size 1.27 1.27)))) (number "25" (effects (font (size 1.27 1.27))))) (pin unspecified line (at -3.81 -114.3 0) (length 3.81) (name "SWDIO" (effects (font (size 1.27 1.27)))) (number "26" (effects (font (size 1.27 1.27))))) (pin unspecified line (at 83.82 3.81 270) (length 3.81) (name "P0.22" (effects (font (size 1.27 1.27)))) (number "27" (effects (font (size 1.27 1.27))))) (pin unspecified line (at 91.44 3.81 270) (length 3.81) (name "P0.23" (effects (font (size 1.27 1.27)))) (number "28" (effects (font (size 1.27 1.27))))) (pin unspecified line (at 99.06 3.81 270) (length 3.81) (name "P0.24" (effects (font (size 1.27 1.27)))) (number "29" (effects (font (size 1.27 1.27))))) (pin unspecified line (at 91.44 -163.83 90) (length 3.81) (name "ANT" (effects (font (size 1.27 1.27)))) (number "30" (effects (font (size 1.27 1.27))))) (pin unspecified line (at 7.62 -163.83 90) (length 3.81) (name "VSS" (effects (font (size 1.27 1.27)))) (number "31" (effects (font (size 1.27 1.27))))) (pin unspecified line (at 110.49 -60.96 180) (length 3.81) (name "DEC2" (effects (font (size 1.27 1.27)))) (number "32" (effects (font (size 1.27 1.27))))) (pin unspecified line (at 38.1 -163.83 90) (length 3.81) (name "DEC3" (effects (font (size 1.27 1.27)))) (number "33" (effects (font (size 1.27 1.27))))) (pin unspecified line (at 53.34 -163.83 90) (length 3.81) (name "XC1" (effects (font (size 1.27 1.27)))) (number "34" (effects (font (size 1.27 1.27))))) (pin unspecified line (at 60.96 -163.83 90) (length 3.81) (name "XC2" (effects (font (size 1.27 1.27)))) (number "35" (effects (font (size 1.27 1.27))))) (pin unspecified line (at -3.81 -60.96 0) (length 3.81) (name "VDD" (effects (font (size 1.27 1.27)))) (number "36" (effects (font (size 1.27 1.27))))) (pin unspecified line (at 45.72 -163.83 90) (length 3.81) (name "P0.25" (effects (font (size 1.27 1.27)))) (number "37" (effects (font (size 1.27 1.27))))) (pin unspecified line (at -3.81 -76.2 0) (length 3.81) (name "P0.26" (effects (font (size 1.27 1.27)))) (number "38" (effects (font (size 1.27 1.27))))) (pin unspecified line (at -3.81 -68.58 0) (length 3.81) (name "P0.27" (effects (font (size 1.27 1.27)))) (number "39" (effects (font (size 1.27 1.27))))) (pin unspecified line (at 68.58 -163.83 90) (length 3.81) (name "P0.28/AIN4" (effects (font (size 1.27 1.27)))) (number "40" (effects (font (size 1.27 1.27))))) (pin unspecified line (at 76.2 -163.83 90) (length 3.81) (name "P0.29/AIN5" (effects (font (size 1.27 1.27)))) (number "41" (effects (font (size 1.27 1.27))))) (pin unspecified line (at 99.06 -163.83 90) (length 3.81) (name "P0.30/AIN6" (effects (font (size 1.27 1.27)))) (number "42" (effects (font (size 1.27 1.27))))) (pin unspecified line (at -3.81 -38.1 0) (length 3.81) (name "P0.31/AIN7" (effects (font (size 1.27 1.27)))) (number "43" (effects (font (size 1.27 1.27))))) (pin unspecified line (at -3.81 -91.44 0) (length 3.81) (name "NC" (effects (font (size 1.27 1.27)))) (number "44" (effects (font (size 1.27 1.27))))) (pin unspecified line (at 22.86 -163.83 90) (length 3.81) (name "VSS" (effects (font (size 1.27 1.27)))) (number "45" (effects (font (size 1.27 1.27))))) (pin unspecified line (at 83.82 -163.83 90) (length 3.81) (name "DEC4" (effects (font (size 1.27 1.27)))) (number "46" (effects (font (size 1.27 1.27))))) (pin unspecified line (at -3.81 -106.68 0) (length 3.81) (name "DCC" (effects (font (size 1.27 1.27)))) (number "47" (effects (font (size 1.27 1.27))))) (pin unspecified line (at -3.81 -53.34 0) (length 3.81) (name "VDD" (effects (font (size 1.27 1.27)))) (number "48" (effects (font (size 1.27 1.27))))) (pin unspecified line (at 30.48 -163.83 90) (length 3.81) (name "EP" (effects (font (size 1.27 1.27)))) (number "49" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "Crystals_Oscillators_Resonators:X201632MMB4SI__CORE__y1" (pin_names (offset 1.016)) (in_bom yes) (on_board yes) 
+
+(property "Reference" "COR" (id 0) (at 20.32 5.08 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "X201632MMB4SI" (id 1) (at 20.32 -30.48 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectFootprints:CRYSTAL-SMD_4P-L2.0-W1.6-BL" (id 2) (at 20.32 -33.02 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at 20.32 -35.56 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "X201632MMB4SI__CORE__y1_0_1" 
+
+(polyline (pts 
+
+(xy 1.27 -0.0) 
+
+(xy 39.37 -0.0) 
+
+(xy 39.617765 -0.024403) 
+
+(xy 39.856008 -0.096673) 
+
+(xy 40.075574 -0.214034) 
+
+(xy 40.268026 -0.371974) 
+
+(xy 40.425966 -0.564426) 
+
+(xy 40.543327 -0.783992) 
+
+(xy 40.615597 -1.022235) 
+
+(xy 40.64 -1.27) 
+
+(xy 40.64 -24.13) 
+
+(xy 40.615597 -24.377765) 
+
+(xy 40.543327 -24.616008) 
+
+(xy 40.425966 -24.835574) 
+
+(xy 40.268026 -25.028026) 
+
+(xy 40.075574 -25.185966) 
+
+(xy 39.856008 -25.303327) 
+
+(xy 39.617765 -25.375597) 
+
+(xy 39.37 -25.4) 
+
+(xy 1.27 -25.4) 
+
+(xy 1.022235 -25.375597) 
+
+(xy 0.783992 -25.303327) 
+
+(xy 0.564426 -25.185966) 
+
+(xy 0.371974 -25.028026) 
+
+(xy 0.214034 -24.835574) 
+
+(xy 0.096673 -24.616008) 
+
+(xy 0.024403 -24.377765) 
+
+(xy 0.0 -24.13) 
+
+(xy 0.0 -1.27) 
+
+(xy 0.024403 -1.022235) 
+
+(xy 0.096673 -0.783992) 
+
+(xy 0.214034 -0.564426) 
+
+(xy 0.371974 -0.371974) 
+
+(xy 0.564426 -0.214034) 
+
+(xy 0.783992 -0.096673) 
+
+(xy 1.022235 -0.024403) 
+
+(xy 1.27 -0.0)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type background)))) 
+
+(symbol "X201632MMB4SI__CORE__y1_1_1" (pin unspecified line (at 12.7 2.54 270) (length 2.54) (name "OSC1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))) (pin unspecified line (at 12.7 -27.94 90) (length 2.54) (name "GND" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27))))) (pin unspecified line (at 20.32 2.54 270) (length 2.54) (name "OSC2" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27))))) (pin unspecified line (at 20.32 -27.94 90) (length 2.54) (name "GND" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes) 
+
+(property "Reference" "#PWR" (id 0) (at 0 -6.35 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Value" "GND" (id 1) (at 0 -3.81 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "" (id 2) (at 0 0 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at 0 0 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "ki_keywords" "power-flag" (id 4) (at 0 0 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (id 5) (at 0 0 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "GND_0_1" 
+
+(polyline (pts 
+
+(xy 0 0) 
+
+(xy 0 -1.27) 
+
+(xy 1.27 -1.27) 
+
+(xy 0 -2.54) 
+
+(xy -1.27 -1.27) 
+
+(xy 0 -1.27)) (stroke (width 0) (type default) (color 0 0 0 0)) (fill (type none)))) 
+
+(symbol "GND_1_1" (pin power_in line (at 0 0 270) (length 0) hide (name "GND" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))))) 
+
+(symbol (lib_id "Radio_Frequency_Chip_Antenna:KH-1608-H08__CORE__a1") (at 458.47 243.84 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (uuid "74af5fd6-595c-4bec-acad-5624965cf4d2") 
+
+(property "Reference" "COR_A1" (at 473.71 250.8885 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "KH-1608-H08" (at 473.71 254.5715 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectFootprints:ANT-SMD_L1.7-W0.9" (at 458.47 243.84 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 458.47 243.84 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "Radio_Frequency_Chip_Antenna" (at 458.47 243.84 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "KH-1608-H08" (at 458.47 243.84 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_FOOTPRINT" "ANT-SMD_L1.7-W0.9" (at 458.47 243.84 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_ID" "a6efdda094dfdb346edf5efa951c6f57101bbefe36772a77902c98086c0e6081" (at 458.47 243.84 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_NAME" "ANT-SMD_L1.7-W0.9" (at 458.47 243.84 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "b20556b9-f7fe-4e3a-a37e-99322e1b6a26")) (pin "2" (uuid "22523ef5-3a65-427d-b6eb-189a95621026")) (instances (project "Smart_Ring" (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e" (reference "COR_A1") (unit 1))))) 
+
+(symbol (lib_id "Device:C__CORE__c1") (at 360.68 180.34 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (uuid "6a4ab8da-2077-4a8e-be7d-1ba87de33d7d") 
+
+(property "Reference" "COR_C1" (at 360.68 180.721 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "100n" (at 360.68 187.579 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectFootprints:C_0402_1005Metric" (at 360.68 180.34 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 360.68 180.34 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "Device" (at 360.68 180.34 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "C" (at 360.68 180.34 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_NAME" "C_0402_1005Metric" (at 360.68 180.34 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "173789ed-6cb2-4c06-be46-3ed8b3496106")) (pin "2" (uuid "d503d2eb-184b-445a-86fe-6378ed0b3910")) (instances (project "Smart_Ring" (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e" (reference "COR_C1") (unit 1))))) 
+
+(symbol (lib_id "Device:C__CORE__c10") (at 119.38 181.61 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (uuid "5dd604da-128b-40af-92b9-1882784461e3") 
+
+(property "Reference" "COR_C10" (at 121.92 184.277 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "10n" (at 121.92 186.563 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectFootprints:C_0402_1005Metric" (at 119.38 181.61 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 119.38 181.61 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "Device" (at 119.38 181.61 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "C" (at 119.38 181.61 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_NAME" "C_0402_1005Metric" (at 119.38 181.61 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "6e8d0f39-fec4-48d4-a60f-a2daed4e8b95")) (pin "2" (uuid "9a95ef6f-c620-4640-b12d-170a2229b459")) (instances (project "Smart_Ring" (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e" (reference "COR_C10") (unit 1))))) 
+
+(symbol (lib_id "Device:C__CORE__c2") (at 361.95 134.62 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (uuid "49959fa6-d357-4635-a973-84fe49070eef") 
+
+(property "Reference" "COR_C2" (at 361.95 135.001 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "100n" (at 361.95 141.859 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectFootprints:C_0402_1005Metric" (at 361.95 134.62 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 361.95 134.62 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "Device" (at 361.95 134.62 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "C" (at 361.95 134.62 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_NAME" "C_0402_1005Metric" (at 361.95 134.62 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "e1786b0b-eeb9-4792-afb0-0d798984f9c6")) (pin "2" (uuid "17a67e52-d4c2-4a60-b36e-a5a171c7e796")) (instances (project "Smart_Ring" (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e" (reference "COR_C2") (unit 1))))) 
+
+(symbol (lib_id "Device:C__CORE__c3") (at 325.12 245.11 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (uuid "580af7ca-05f7-46cf-b322-af3c97630f21") 
+
+(property "Reference" "COR_C3" (at 327.66 247.777 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "100n" (at 327.66 250.063 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectFootprints:C_0402_1005Metric" (at 325.12 245.11 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 325.12 245.11 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "Device" (at 325.12 245.11 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "C" (at 325.12 245.11 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_NAME" "C_0402_1005Metric" (at 325.12 245.11 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "2fd3fdb0-91af-4618-a2df-38d99db6384e")) (pin "2" (uuid "f0402328-b97b-4b55-a2d7-ba1a86b9da20")) (instances (project "Smart_Ring" (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e" (reference "COR_C3") (unit 1))))) 
+
+(symbol (lib_id "Device:C__CORE__c4") (at 116.84 124.46 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (uuid "5b4c8445-0b83-4643-9ed6-444c1665bd1b") 
+
+(property "Reference" "COR_C4" (at 119.38 127.127 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "4.7u" (at 119.38 129.413 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectFootprints:C_0603_1608Metric" (at 116.84 124.46 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 116.84 124.46 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "Device" (at 116.84 124.46 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "C" (at 116.84 124.46 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_NAME" "C_0603_1608Metric" (at 116.84 124.46 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "7fb47aad-0eb1-44aa-a9e6-a81cb38e6078")) (pin "2" (uuid "878df59f-aff3-499c-bc83-7c5d16ebc57f")) (instances (project "Smart_Ring" (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e" (reference "COR_C4") (unit 1))))) 
+
+(symbol (lib_id "Device:C__CORE__c5") (at 138.43 127.0 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (uuid "72932e57-715d-46b4-8a72-a3121e4bbe19") 
+
+(property "Reference" "COR_C5" (at 140.97 129.667 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "1u" (at 140.97 131.953 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectFootprints:C_0402_1005Metric" (at 138.43 127.0 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 138.43 127.0 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "Device" (at 138.43 127.0 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "C" (at 138.43 127.0 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_NAME" "C_0402_1005Metric" (at 138.43 127.0 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "60c81091-1695-424c-bff0-494cabeb79f5")) (pin "2" (uuid "43cdc17f-3e82-4e56-8c8b-b9cd91efb5c6")) (instances (project "Smart_Ring" (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e" (reference "COR_C5") (unit 1))))) 
+
+(symbol (lib_id "Device:C__CORE__c6") (at 275.59 303.53 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (uuid "28c0e940-e577-45db-8453-8f3ed4203b4a") 
+
+(property "Reference" "COR_C6" (at 275.59 303.911 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "15p" (at 275.59 310.769 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectFootprints:C_0402_1005Metric" (at 275.59 303.53 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 275.59 303.53 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "Device" (at 275.59 303.53 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "C" (at 275.59 303.53 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_NAME" "C_0402_1005Metric" (at 275.59 303.53 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "8009313a-40ad-43d2-91e2-848402e37596")) (pin "2" (uuid "0629d28c-fac2-4b7b-9813-e3302236eca2")) (instances (project "Smart_Ring" (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e" (reference "COR_C6") (unit 1))))) 
+
+(symbol (lib_id "Device:C__CORE__c7") (at 292.1 290.83 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (uuid "b9c47f32-2e88-4fc7-91ba-08e7a0f2a178") 
+
+(property "Reference" "COR_C7" (at 292.1 291.211 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "15p" (at 292.1 298.069 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectFootprints:C_0402_1005Metric" (at 292.1 290.83 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 292.1 290.83 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "Device" (at 292.1 290.83 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "C" (at 292.1 290.83 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_NAME" "C_0402_1005Metric" (at 292.1 290.83 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "94fc7cc5-434e-40d7-b942-8ba0408ff14a")) (pin "2" (uuid "04c9b6e3-2abd-4736-bc1a-7a7b626cd886")) (instances (project "Smart_Ring" (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e" (reference "COR_C7") (unit 1))))) 
+
+(symbol (lib_id "Device:C__CORE__c8") (at 406.4 243.84 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (uuid "d5f52ad7-fb76-4c75-bef8-a9b838d081dd") 
+
+(property "Reference" "COR_C8" (at 408.94 246.507 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "0.8p" (at 408.94 248.793 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectFootprints:C_0402_1005Metric" (at 406.4 243.84 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 406.4 243.84 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "Device" (at 406.4 243.84 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "C" (at 406.4 243.84 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_NAME" "C_0402_1005Metric" (at 406.4 243.84 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "a2db4a14-25bb-4e4f-95b7-9d94bbc61d4c")) (pin "2" (uuid "5371878e-1edb-44f9-becb-4e7eb1f9f3e8")) (instances (project "Smart_Ring" (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e" (reference "COR_C8") (unit 1))))) 
+
+(symbol (lib_id "Device:C__CORE__c9") (at 450.85 241.3 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (uuid "518151d6-6509-4034-aac5-b900e3f06198") 
+
+(property "Reference" "COR_C9" (at 453.39 243.967 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "100p" (at 453.39 246.253 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectFootprints:C_0402_1005Metric" (at 450.85 241.3 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 450.85 241.3 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "Device" (at 450.85 241.3 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "C" (at 450.85 241.3 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_NAME" "C_0402_1005Metric" (at 450.85 241.3 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "af1e6604-19bc-4000-a329-4ef098ccb825")) (pin "2" (uuid "f5cb2852-07dc-4320-b95a-e29ba6dc1a00")) (instances (project "Smart_Ring" (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e" (reference "COR_C9") (unit 1))))) 
+
+(symbol (lib_id "Device:L__CORE__l1") (at 414.02 237.49 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (uuid "4786a498-7c24-4596-babe-edf6c0650f88") 
+
+(property "Reference" "COR_L1" (at 414.02 239.014 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "3.9n" (at 414.02 243.586 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectFootprints:L_0402_1005Metric" (at 414.02 237.49 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 414.02 237.49 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "Device" (at 414.02 237.49 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "L" (at 414.02 237.49 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_NAME" "L_0402_1005Metric" (at 414.02 237.49 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "8d8699c8-57a3-40ab-9bfe-a542e53b95a4")) (pin "2" (uuid "2fc78fa3-4f5e-4e63-8703-fcf4b3344fdf")) (instances (project "Smart_Ring" (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e" (reference "COR_L1") (unit 1))))) 
+
+(symbol (lib_id "Device:R__CORE__r1") (at 175.26 146.05 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (uuid "5f50cf16-dba3-4b3e-89df-7e15e57ece11") 
+
+(property "Reference" "COR_R1" (at 177.292 148.717 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "10k" (at 177.292 151.003 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectFootprints:R_0402_1005Metric" (at 175.26 146.05 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 175.26 146.05 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "Device" (at 175.26 146.05 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "R" (at 175.26 146.05 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_NAME" "R_0402_1005Metric" (at 175.26 146.05 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "38a9178d-52e3-4936-ba10-726af01ee619")) (pin "2" (uuid "82db2f77-bedd-4712-89d6-7b051503f6d6")) (instances (project "Smart_Ring" (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e" (reference "COR_R1") (unit 1))))) 
+
+(symbol (lib_id "Device:R__CORE__r2") (at 186.69 118.11 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (uuid "fbaf7bfd-1ad2-4101-a5ef-8f786bc6aadd") 
+
+(property "Reference" "COR_R2" (at 188.722 120.777 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "10k" (at 188.722 123.063 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectFootprints:R_0402_1005Metric" (at 186.69 118.11 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 186.69 118.11 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "Device" (at 186.69 118.11 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "R" (at 186.69 118.11 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_NAME" "R_0402_1005Metric" (at 186.69 118.11 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "0f678ee3-0011-4fe2-8c46-0dd9b9565d69")) (pin "2" (uuid "9bb57b5f-07b7-4b50-b486-baed168d9d8f")) (instances (project "Smart_Ring" (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e" (reference "COR_R2") (unit 1))))) 
+
+(symbol (lib_id "Device:R__CORE__r3") (at 209.55 91.44 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (uuid "4196ded3-81ee-47cb-940f-b7447c08f4d5") 
+
+(property "Reference" "COR_R3" (at 207.518 94.107 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "100k" (at 207.518 96.393 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectFootprints:R_0402_1005Metric" (at 209.55 91.44 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 209.55 91.44 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "Device" (at 209.55 91.44 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "R" (at 209.55 91.44 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_NAME" "R_0402_1005Metric" (at 209.55 91.44 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "8967ecfa-051f-4fc7-84dc-311d569ab084")) (pin "2" (uuid "09adef6f-9ed5-4938-9f3d-df73df11ac9f")) (instances (project "Smart_Ring" (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e" (reference "COR_R3") (unit 1))))) 
+
+(symbol (lib_id "Device:R__CORE__r4") (at 148.59 149.86 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (uuid "60e8a3bc-cdaa-4a93-9d3b-df456ea688b3") 
+
+(property "Reference" "COR_R4" (at 150.622 152.527 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "100k" (at 150.622 154.813 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectFootprints:R_0402_1005Metric" (at 148.59 149.86 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 148.59 149.86 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "Device" (at 148.59 149.86 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "R" (at 148.59 149.86 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_NAME" "R_0402_1005Metric" (at 148.59 149.86 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "4c100aee-9407-4721-94be-53f981d9dc32")) (pin "2" (uuid "c88bef4e-75ab-4ca2-aa37-6e32a1383d49")) (instances (project "Smart_Ring" (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e" (reference "COR_R4") (unit 1))))) 
+
+(symbol (lib_id "Device:R__CORE__r5") (at 110.49 133.35 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (uuid "5bb953bd-2c23-4878-84fd-3acf848f6abf") 
+
+(property "Reference" "COR_R5" (at 112.522 136.017 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "100k" (at 112.522 138.303 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectFootprints:R_0402_1005Metric" (at 110.49 133.35 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 110.49 133.35 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "Device" (at 110.49 133.35 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "R" (at 110.49 133.35 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_NAME" "R_0402_1005Metric" (at 110.49 133.35 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "7cb0f971-9e74-47c5-8a77-e9342529aca3")) (pin "2" (uuid "aeb65a03-018d-48fd-a88d-6b8af551f329")) (instances (project "Smart_Ring" (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e" (reference "COR_R5") (unit 1))))) 
+
+(symbol (lib_id "Device:R__CORE__r6") (at 204.47 241.3 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (uuid "fe1b13bf-5124-4df4-978c-5b828bebb203") 
+
+(property "Reference" "COR_R6" (at 202.438 243.967 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "33" (at 202.438 246.253 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectFootprints:R_0402_1005Metric" (at 204.47 241.3 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 204.47 241.3 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "Device" (at 204.47 241.3 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "R" (at 204.47 241.3 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_NAME" "R_0402_1005Metric" (at 204.47 241.3 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "7460fe33-1a93-4e92-bc4c-0e695f234eb1")) (pin "2" (uuid "b3180a22-c7f7-4566-8ce5-e53419ae56a6")) (instances (project "Smart_Ring" (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e" (reference "COR_R6") (unit 1))))) 
+
+(symbol (lib_id "Connectors:1625854-3__CORE__tp_swdclk") (at 173.99 247.65 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (uuid "da090d37-f27e-4899-80bf-f6996c460846") 
+
+(property "Reference" "COR_TP1" (at 176.022 249.047 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "1625854-3" (at 176.022 251.333 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectFootprints:TESTPOINT-SMD_L1.6-W0.8" (at 173.99 247.65 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 173.99 247.65 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "Connectors" (at 173.99 247.65 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "1625854-3" (at 173.99 247.65 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_FOOTPRINT" "TESTPOINT-SMD_L1.6-W0.8" (at 173.99 247.65 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_ID" "1dc5527c0a8b0b0bfeabc484e77991c87db58335fd94ef8bdc5554335b1e97ad" (at 173.99 247.65 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_NAME" "TESTPOINT-SMD_L1.6-W0.8" (at 173.99 247.65 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "5f9414c4-7721-4f46-bafa-05fcf16f7ae6")) (instances (project "Smart_Ring" (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e" (reference "COR_TP1") (unit 1))))) 
+
+(symbol (lib_id "Connectors:1625854-3__CORE__tp_swdio") (at 172.72 181.61 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (uuid "c4c6f2b2-432d-47e5-992f-80febcd3b2f2") 
+
+(property "Reference" "COR_TP2" (at 174.752 183.007 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "1625854-3" (at 174.752 185.293 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectFootprints:TESTPOINT-SMD_L1.6-W0.8" (at 172.72 181.61 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 172.72 181.61 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "Connectors" (at 172.72 181.61 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "1625854-3" (at 172.72 181.61 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_FOOTPRINT" "TESTPOINT-SMD_L1.6-W0.8" (at 172.72 181.61 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_ID" "1dc5527c0a8b0b0bfeabc484e77991c87db58335fd94ef8bdc5554335b1e97ad" (at 172.72 181.61 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_NAME" "TESTPOINT-SMD_L1.6-W0.8" (at 172.72 181.61 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "43c1f0af-c937-40a7-a57b-bab5958600eb")) (instances (project "Smart_Ring" (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e" (reference "COR_TP2") (unit 1))))) 
+
+(symbol (lib_id "Connectors:1625854-3__CORE__tp_reset") (at 147.32 168.91 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (uuid "c96b5dbc-62fe-4bb5-ae34-7275f64f9930") 
+
+(property "Reference" "COR_TP3" (at 149.352 170.307 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "1625854-3" (at 149.352 172.593 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectFootprints:TESTPOINT-SMD_L1.6-W0.8" (at 147.32 168.91 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 147.32 168.91 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "Connectors" (at 147.32 168.91 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "1625854-3" (at 147.32 168.91 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_FOOTPRINT" "TESTPOINT-SMD_L1.6-W0.8" (at 147.32 168.91 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_ID" "1dc5527c0a8b0b0bfeabc484e77991c87db58335fd94ef8bdc5554335b1e97ad" (at 147.32 168.91 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_NAME" "TESTPOINT-SMD_L1.6-W0.8" (at 147.32 168.91 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "20913329-94ed-4fa9-9c1b-6323361df804")) (instances (project "Smart_Ring" (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e" (reference "COR_TP3") (unit 1))))) 
+
+(symbol (lib_id "Connectors:1625854-3__CORE__tp_vref") (at 139.7 114.3 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (uuid "32e26204-001e-4e5e-b1a1-abe813fd8e46") 
+
+(property "Reference" "COR_TP4" (at 141.732 115.697 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "1625854-3" (at 141.732 117.983 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectFootprints:TESTPOINT-SMD_L1.6-W0.8" (at 139.7 114.3 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 139.7 114.3 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "Connectors" (at 139.7 114.3 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "1625854-3" (at 139.7 114.3 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_FOOTPRINT" "TESTPOINT-SMD_L1.6-W0.8" (at 139.7 114.3 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_ID" "1dc5527c0a8b0b0bfeabc484e77991c87db58335fd94ef8bdc5554335b1e97ad" (at 139.7 114.3 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_NAME" "TESTPOINT-SMD_L1.6-W0.8" (at 139.7 114.3 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "08efe716-8cf7-4fba-a6ad-af39d2628d3c")) (instances (project "Smart_Ring" (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e" (reference "COR_TP4") (unit 1))))) 
+
+(symbol (lib_id "Connectors:1625854-3__CORE__tp_gnd") (at 162.56 101.6 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (uuid "4e52dc2a-b2f1-4b5d-9c10-42f294e18ee2") 
+
+(property "Reference" "COR_TP5" (at 164.592 102.997 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "1625854-3" (at 164.592 105.283 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectFootprints:TESTPOINT-SMD_L1.6-W0.8" (at 162.56 101.6 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 162.56 101.6 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "Connectors" (at 162.56 101.6 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "1625854-3" (at 162.56 101.6 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_FOOTPRINT" "TESTPOINT-SMD_L1.6-W0.8" (at 162.56 101.6 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_ID" "1dc5527c0a8b0b0bfeabc484e77991c87db58335fd94ef8bdc5554335b1e97ad" (at 162.56 101.6 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_NAME" "TESTPOINT-SMD_L1.6-W0.8" (at 162.56 101.6 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "77068342-5196-4888-9b5f-33a84bf66c7e")) (instances (project "Smart_Ring" (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e" (reference "COR_TP5") (unit 1))))) 
+
+(symbol (lib_id "RF_Radio:NRF52832-QFAA-R__CORE__u1") (at 241.3 77.47 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (uuid "8767f77f-dcd4-4518-8219-dc6f7ac054bb") 
+
+(property "Reference" "COR_U1" (at 294.64 155.6385 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "NRF52832-QFAA-R" (at 294.64 159.3215 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectFootprints:QFN-48_L6.0-W6.0-P0.40-BL-EP3.8" (at 241.3 77.47 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 241.3 77.47 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "RF_&_Radio" (at 241.3 77.47 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "NRF52832-QFAA-R" (at 241.3 77.47 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_FOOTPRINT" "QFN-48_L6.0-W6.0-P0.40-BL-EP3.8" (at 241.3 77.47 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_ID" "7c4cfa97687d2b7a6bffdf292f51c7950a55edeea2e390381fe225e8bd9f7703" (at 241.3 77.47 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_NAME" "QFN-48_L6.0-W6.0-P0.40-BL-EP3.8" (at 241.3 77.47 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "6576a12f-e173-48f7-9b68-639bc29f5f6a")) (pin "2" (uuid "63569b5d-9899-4728-8521-3fc755c77b87")) (pin "3" (uuid "7cace05f-484c-46d0-b391-470166ac4fd9")) (pin "4" (uuid "5622e414-ae11-4d83-afad-f6d194e1413d")) (pin "5" (uuid "5d696236-c608-4c9c-be01-fd8e24512c85")) (pin "6" (uuid "e87dbc69-4ae2-4ec8-abe5-750d32ed2958")) (pin "7" (uuid "364082fc-8096-4da1-aecd-c6cd1f2446f3")) (pin "8" (uuid "1d238f2b-893d-4d14-8909-c27e964bc6d2")) (pin "9" (uuid "7ff153e1-da7a-491e-913b-0ec9446df1f6")) (pin "10" (uuid "b44fe08c-8cc8-4517-9e31-8966f5892680")) (pin "11" (uuid "49abc855-9a32-4fcb-ab38-b2a886cfb6f3")) (pin "12" (uuid "81f4de2a-3376-4d73-9653-e99c949cbca9")) (pin "13" (uuid "914dbac0-ebef-4d61-95d0-415ed30ce307")) (pin "14" (uuid "c09f9b54-0233-4e32-b83b-f7c8b14ed463")) (pin "15" (uuid "c8daecf7-7808-4eaa-8072-069f246dd383")) (pin "16" (uuid "25142406-ac80-4b9d-8a7a-efb0230ebe69")) (pin "17" (uuid "9918322c-22b5-4757-93f1-4d43635a36d0")) (pin "18" (uuid "7ec01362-8e74-4e2e-87f1-83d083a7c05c")) (pin "19" (uuid "a4ffab7b-55c3-413b-a726-8472188c4d05")) (pin "20" (uuid "94f81e39-642c-42bd-90e9-8915e0f4dc11")) (pin "21" (uuid "75ba752d-9b82-4d8d-8a19-cc14a65bf8d1")) (pin "22" (uuid "05d07d02-90da-475b-9057-5a3a1641c76d")) (pin "23" (uuid "65658276-d159-465c-a39a-cd6e2e9c8a0b")) (pin "24" (uuid "1659a51b-e1ad-4f44-8a86-1cf8410b73c8")) (pin "25" (uuid "1d29de49-60ab-4ef0-8996-508ed05b3ed7")) (pin "26" (uuid "47aaed44-74f0-4602-bb3c-55986f3953e3")) (pin "27" (uuid "d835cca6-95f2-4719-8731-cf54789d8c30")) (pin "28" (uuid "d480e0cf-b14d-44a9-8103-6a2323701e91")) (pin "29" (uuid "56a9e1f0-c407-4003-a152-cbf75d39c862")) (pin "30" (uuid "5ee680ec-9e19-4822-980e-581fa379db78")) (pin "31" (uuid "1524a816-70c7-4593-9f14-cf5fb73d3007")) (pin "32" (uuid "b8a68df5-5b96-42d2-916d-8d4c97c9af36")) (pin "33" (uuid "f1d76516-c056-41e5-9a07-d9181ec5f7fc")) (pin "34" (uuid "0c8cb3a9-449c-43ea-a29b-f32ac62409a8")) (pin "35" (uuid "b3b47507-d23e-49e1-a127-b015686bbb89")) (pin "36" (uuid "aa9a78d5-64cf-4240-bbc4-bf36b7c58365")) (pin "37" (uuid "67b3fcfc-d698-4daa-944a-a256ac102f1c")) (pin "38" (uuid "da3393a4-0100-4710-925f-b2383d85c3ef")) (pin "39" (uuid "e8bd6a02-1b43-4108-a5e8-ee3ee525ba3b")) (pin "40" (uuid "b8fb70ba-731a-41f2-afc1-00caac5e6b59")) (pin "41" (uuid "1a942957-e353-49a1-851d-78cb9294ff67")) (pin "42" (uuid "0df99644-9e45-4717-b9fb-e98b22dfc05b")) (pin "43" (uuid "c744993d-8aca-45e9-871a-66c067bde64a")) (pin "44" (uuid "a42ebba6-ec49-4af5-b499-8c67ba903839")) (pin "45" (uuid "47441874-e3f6-48dd-8674-4a159890dfc7")) (pin "46" (uuid "ea59481a-e5b2-4282-a111-07f13f426637")) (pin "47" (uuid "3fb832b4-1a10-4476-8767-2a625a4fa95a")) (pin "48" (uuid "23ed8f75-e2be-4028-a926-6427d8b1c879")) (pin "49" (uuid "712aed0e-a4d0-4e36-b4c0-f2fc30dcbd3a")) (instances (project "Smart_Ring" (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e" (reference "COR_U1") (unit 1))))) 
+
+(symbol (lib_id "Crystals_Oscillators_Resonators:X201632MMB4SI__CORE__y1") (at 281.94 309.88 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (uuid "872fd0c2-4767-45aa-844a-8a70f99185ac") 
+
+(property "Reference" "COR_Y1" (at 302.26 320.7385 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "X201632MMB4SI" (at 302.26 324.4215 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectFootprints:CRYSTAL-SMD_4P-L2.0-W1.6-BL" (at 281.94 309.88 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 281.94 309.88 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "Crystals_Oscillators_Resonators" (at 281.94 309.88 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "X201632MMB4SI" (at 281.94 309.88 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_FOOTPRINT" "CRYSTAL-SMD_4P-L2.0-W1.6-BL" (at 281.94 309.88 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_ID" "20327719fb810113dd878374c79e679acbe0b7b84c4d8696f13969b2629ae20f" (at 281.94 309.88 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_NAME" "CRYSTAL-SMD_4P-L2.0-W1.6-BL" (at 281.94 309.88 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "30bb8f6c-9b84-4d40-8dae-047819ebcb73")) (pin "2" (uuid "7d2f302b-243b-4191-b26c-cc632b5d10f6")) (pin "3" (uuid "6604bcf7-0179-46a2-9ec6-07870597aeb8")) (pin "4" (uuid "bec1f871-0007-4ed6-9483-e511ac159c65")) (instances (project "Smart_Ring" (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e" (reference "COR_Y1") (unit 1))))) 
+
+(symbol (lib_id "power:GND") (at 248.92 246.38 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (fields_autoplaced yes) (uuid "c85ff532-8474-4c7f-971c-fe735cf71f3b") 
+
+(property "Reference" "#PWR23" (at 248.92 246.38 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Value" "GND" (at 248.92 246.38 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "" (at 248.92 246.38 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 248.92 246.38 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "power" (at 248.92 246.38 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "GND" (at 248.92 246.38 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "706de65b-d7ed-4d34-afb8-6ada4d1f3a10")) (instances (project "Smart_Ring" (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e" (reference "#PWR23") (unit 1))))) 
+
+(symbol (lib_id "power:GND") (at 264.16 246.38 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (fields_autoplaced yes) (uuid "5962c33c-7fa1-4058-b132-9d5b98997080") 
+
+(property "Reference" "#PWR24" (at 264.16 246.38 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Value" "GND" (at 264.16 246.38 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "" (at 264.16 246.38 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 264.16 246.38 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "power" (at 264.16 246.38 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "GND" (at 264.16 246.38 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "aedd2d93-1332-41bb-b6f9-840092906f90")) (instances (project "Smart_Ring" (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e" (reference "#PWR24") (unit 1))))) 
+
+(symbol (lib_id "power:GND") (at 294.64 342.9 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (fields_autoplaced yes) (uuid "139bb175-2f16-4e6c-ac6f-6d2f7d3c5879") 
+
+(property "Reference" "#PWR25" (at 294.64 342.9 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Value" "GND" (at 294.64 342.9 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "" (at 294.64 342.9 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 294.64 342.9 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "power" (at 294.64 342.9 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "GND" (at 294.64 342.9 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "dc06ce53-c38b-4831-a64f-66581a9cd353")) (instances (project "Smart_Ring" (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e" (reference "#PWR25") (unit 1))))) 
+
+(symbol (lib_id "power:GND") (at 469.9 269.24 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (fields_autoplaced yes) (uuid "af7c5849-0da8-4b33-ad5e-4a27c60a66c0") 
+
+(property "Reference" "#PWR26" (at 469.9 269.24 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Value" "GND" (at 469.9 269.24 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "" (at 469.9 269.24 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 469.9 269.24 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "power" (at 469.9 269.24 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "GND" (at 469.9 269.24 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "0ee36d0e-e18a-4983-bab2-013cdeb3c994")) (instances (project "Smart_Ring" (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e" (reference "#PWR26") (unit 1))))) 
+
+(symbol (lib_id "power:GND") (at 162.56 114.3 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (fields_autoplaced yes) (uuid "2bf30d4d-cf63-43ee-8251-00bc2925c0e0") 
+
+(property "Reference" "#PWR27" (at 162.56 114.3 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Value" "GND" (at 162.56 114.3 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "" (at 162.56 114.3 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 162.56 114.3 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "power" (at 162.56 114.3 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "GND" (at 162.56 114.3 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "cd72f316-45c5-40cf-b518-456ae5afbc2b")) (instances (project "Smart_Ring" (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e" (reference "#PWR27") (unit 1))))) 
+
+(symbol (lib_id "power:GND") (at 369.57 184.15 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (fields_autoplaced yes) (uuid "35bca096-dafb-474c-8229-ebdbe84c75cf") 
+
+(property "Reference" "#PWR28" (at 369.57 184.15 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Value" "GND" (at 369.57 184.15 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "" (at 369.57 184.15 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 369.57 184.15 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "power" (at 369.57 184.15 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "GND" (at 369.57 184.15 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "78712422-88b8-4734-80a6-dbc4089d23c5")) (instances (project "Smart_Ring" (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e" (reference "#PWR28") (unit 1))))) 
+
+(symbol (lib_id "power:GND") (at 370.84 138.43 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (fields_autoplaced yes) (uuid "9eefec19-79c4-4f46-9b29-b0b896110a9a") 
+
+(property "Reference" "#PWR29" (at 370.84 138.43 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Value" "GND" (at 370.84 138.43 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "" (at 370.84 138.43 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 370.84 138.43 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "power" (at 370.84 138.43 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "GND" (at 370.84 138.43 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "4ca9ccfe-0106-4e41-9146-f7faa8d7004b")) (instances (project "Smart_Ring" (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e" (reference "#PWR29") (unit 1))))) 
+
+(symbol (lib_id "power:GND") (at 325.12 257.81 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (fields_autoplaced yes) (uuid "d410a8a1-d752-4225-b437-a63084add349") 
+
+(property "Reference" "#PWR30" (at 325.12 257.81 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Value" "GND" (at 325.12 257.81 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "" (at 325.12 257.81 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 325.12 257.81 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "power" (at 325.12 257.81 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "GND" (at 325.12 257.81 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "0e22268f-7892-48c7-9e46-f32d30207d02")) (instances (project "Smart_Ring" (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e" (reference "#PWR30") (unit 1))))) 
+
+(symbol (lib_id "power:GND") (at 116.84 137.16 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (fields_autoplaced yes) (uuid "f964d903-24d2-4a04-ab0f-a2ab8bdfc6bf") 
+
+(property "Reference" "#PWR31" (at 116.84 137.16 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Value" "GND" (at 116.84 137.16 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "" (at 116.84 137.16 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 116.84 137.16 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "power" (at 116.84 137.16 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "GND" (at 116.84 137.16 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "4534b8de-bb1c-4a89-8df4-6deedc3f063c")) (instances (project "Smart_Ring" (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e" (reference "#PWR31") (unit 1))))) 
+
+(symbol (lib_id "power:GND") (at 138.43 139.7 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (fields_autoplaced yes) (uuid "77784ca7-dabf-427e-bc68-518cc2dfa469") 
+
+(property "Reference" "#PWR32" (at 138.43 139.7 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Value" "GND" (at 138.43 139.7 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "" (at 138.43 139.7 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 138.43 139.7 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "power" (at 138.43 139.7 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "GND" (at 138.43 139.7 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "dcca1667-fdb5-418e-a1ba-be65eac391f6")) (instances (project "Smart_Ring" (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e" (reference "#PWR32") (unit 1))))) 
+
+(symbol (lib_id "power:GND") (at 266.7 307.34 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (fields_autoplaced yes) (uuid "06ba8c73-9a48-428e-bd9f-a0fb3a94b311") 
+
+(property "Reference" "#PWR33" (at 266.7 307.34 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Value" "GND" (at 266.7 307.34 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "" (at 266.7 307.34 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 266.7 307.34 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "power" (at 266.7 307.34 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "GND" (at 266.7 307.34 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "0b6d43db-7342-43ad-acea-1c10391830b2")) (instances (project "Smart_Ring" (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e" (reference "#PWR33") (unit 1))))) 
+
+(symbol (lib_id "power:GND") (at 283.21 294.64 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (fields_autoplaced yes) (uuid "07267c90-9279-4b15-a9cc-e56e908b9f67") 
+
+(property "Reference" "#PWR34" (at 283.21 294.64 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Value" "GND" (at 283.21 294.64 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "" (at 283.21 294.64 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 283.21 294.64 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "power" (at 283.21 294.64 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "GND" (at 283.21 294.64 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "19f3041a-11d6-4c75-ac4f-7f926fd927a7")) (instances (project "Smart_Ring" (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e" (reference "#PWR34") (unit 1))))) 
+
+(symbol (lib_id "power:GND") (at 406.4 256.54 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (fields_autoplaced yes) (uuid "957b7f9f-230d-4320-b9ae-0224bb60819b") 
+
+(property "Reference" "#PWR35" (at 406.4 256.54 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Value" "GND" (at 406.4 256.54 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "" (at 406.4 256.54 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 406.4 256.54 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "power" (at 406.4 256.54 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "GND" (at 406.4 256.54 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "0f82b9a5-3f9e-4f29-8fef-8f013a6cd222")) (instances (project "Smart_Ring" (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e" (reference "#PWR35") (unit 1))))) 
+
+(symbol (lib_id "power:GND") (at 450.85 254.0 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (fields_autoplaced yes) (uuid "db8b2abb-e86e-4c51-bb64-f7063f5a9c0e") 
+
+(property "Reference" "#PWR36" (at 450.85 254.0 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Value" "GND" (at 450.85 254.0 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "" (at 450.85 254.0 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 450.85 254.0 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "power" (at 450.85 254.0 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "GND" (at 450.85 254.0 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "e6e95433-dd35-4091-83c8-10d0d02d7a1d")) (instances (project "Smart_Ring" (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e" (reference "#PWR36") (unit 1))))) 
+
+(symbol (lib_id "power:GND") (at 119.38 194.31 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (fields_autoplaced yes) (uuid "957edffc-e7c5-4578-881d-4aa31710319d") 
+
+(property "Reference" "#PWR37" (at 119.38 194.31 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Value" "GND" (at 119.38 194.31 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "" (at 119.38 194.31 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 119.38 194.31 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "power" (at 119.38 194.31 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "GND" (at 119.38 194.31 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "3aef12c6-af1c-4508-8ff1-3952426b588d")) (instances (project "Smart_Ring" (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e" (reference "#PWR37") (unit 1))))) (hierarchical_label "1V8_SYS" (shape bidirectional) (at 127.0 127.0 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left)) (uuid "ea3e90b1-5e4e-42ca-86b5-2504731ea012")) (hierarchical_label "BAT_SENSE" (shape bidirectional) (at 302.26 59.69 90) (fields_autoplaced) (effects (font (size 1.27 1.27))) (uuid "45270e87-5472-4379-a00b-ead4eb067cf8")) (hierarchical_label "CHG_STATUS_N" (shape bidirectional) (at 209.55 73.66 180) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify right)) (uuid "6e465f23-ff96-4383-b3ab-9d1fa4a28e44")) (hierarchical_label "I2C0_SCL" (shape bidirectional) (at 186.69 147.32 180) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify right)) (uuid "142df9ff-c2b2-4814-9f50-7a37aca95dee")) (hierarchical_label "I2C0_SDA" (shape bidirectional) (at 212.09 139.7 90) (fields_autoplaced) (effects (font (size 1.27 1.27))) (uuid "f990e872-48bd-4df6-a266-59f2cafded15")) (hierarchical_label "IMU_INT" (shape bidirectional) (at 271.78 60.96 90) (fields_autoplaced) (effects (font (size 1.27 1.27))) (uuid "671f185d-d7a1-410d-924c-87f64a943bed")) (hierarchical_label "PPG_INT_N" (shape bidirectional) (at 168.91 161.29 90) (fields_autoplaced) (effects (font (size 1.27 1.27))) (uuid "50b1c8bf-e642-4a1f-990d-d5a70d7ec28d")) (hierarchical_label "RESET_N" (shape bidirectional) (at 119.38 176.53 180) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify right)) (uuid "a50b75f5-f08a-4664-a1ea-1552afc8e2aa")) (hierarchical_label "SWD_CLK" (shape bidirectional) (at 184.15 251.46 90) (fields_autoplaced) (effects (font (size 1.27 1.27))) (uuid "4f0d8022-d107-4f78-b433-d2abf804a9b5")) (hierarchical_label "SWD_IO" (shape bidirectional) (at 179.07 191.77 270) (fields_autoplaced) (effects (font (size 1.27 1.27))) (uuid "61078cfd-9f4e-4509-85c7-1a3151544705")) 
+
+(label "DEC1" (at 351.79 184.15 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) hide) (uuid "c86391f0-fa81-45b7-bc4f-32dd5cf6218b")) 
+
+(label "DEC2" (at 351.79 138.43 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) hide) (uuid "f3293ba5-8f04-47ed-8fdc-55b33b5f3948")) 
+
+(label "DEC4" (at 325.12 241.3 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) hide) (uuid "7fa3a55d-e761-442d-9b4c-c7da9bec71bd")) 
+
+(label "RF_50" (at 417.83 241.3 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) hide) (uuid "5883275a-98b2-415d-b55d-f2061690d68d")) 
+
+(label "RF_ANT_RAW" (at 332.74 241.3 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) hide) (uuid "896b8263-3de4-4c5c-80a9-879b91ac9430")) 
+
+(label "SWDCLK_MCU" (at 204.47 241.3 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) hide) (uuid "88cf3455-5d4c-4fb4-968d-2dd73454394f")) 
+
+(label "XTAL_XC1" (at 279.4 307.34 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) hide) (uuid "0f9f0912-c7db-48ff-ae74-14fa9d79ab2a")) 
+
+(label "XTAL_XC2" (at 295.91 294.64 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) hide) (uuid "8b850d24-171b-4082-8abd-fce89ac24952")) 
+
+(junction (at 129.54 127.0) (diameter 0) (color 0 0 0 0) (uuid "85fc6804-a329-4019-acdd-3a4337f604e1")) 
+
+(junction (at 138.43 127.0) (diameter 0) (color 0 0 0 0) (uuid "1811041d-4ad8-4611-a32b-010115134099")) 
+
+(junction (at 139.7 127.0) (diameter 0) (color 0 0 0 0) (uuid "973e1878-40bf-473e-ba24-3a21e72599b0")) 
+
+(junction (at 148.59 127.0) (diameter 0) (color 0 0 0 0) (uuid "1a08bf1b-cded-4e3f-8772-18defaa2228f")) 
+
+(junction (at 175.26 127.0) (diameter 0) (color 0 0 0 0) (uuid "747573ac-bfc3-44fb-9711-a5da0a8aebce")) 
+
+(junction (at 189.23 127.0) (diameter 0) (color 0 0 0 0) (uuid "8f0d80cd-fe20-41e2-a42d-15e888043cf3")) 
+
+(junction (at 209.55 127.0) (diameter 0) (color 0 0 0 0) (uuid "0afa10cd-f08b-4e5e-b3d7-65d381e800b7")) 
+
+(junction (at 237.49 127.0) (diameter 0) (color 0 0 0 0) (uuid "470f94a5-e553-4746-acce-30d81f7845a9")) 
+
+(junction (at 237.49 130.81) (diameter 0) (color 0 0 0 0) (uuid "f47375c0-ca70-4725-8dc3-5daf6356cf0e")) 
+
+(junction (at 264.16 241.3) (diameter 0) (color 0 0 0 0) (uuid "25d260e3-14c5-43fb-bf08-64c8b57ca9a0")) 
+
+(junction (at 294.64 337.82) (diameter 0) (color 0 0 0 0) (uuid "571fd21a-7dc5-4304-8d14-8d3e77cb0384")) 
+
+(junction (at 237.49 153.67) (diameter 0) (color 0 0 0 0) (uuid "42f1b865-4ef9-448f-ae16-72135687272c")) 
+
+(junction (at 147.32 176.53) (diameter 0) (color 0 0 0 0) (uuid "4daab1a1-1242-4970-ab60-ba147e5a4919")) 
+
+(junction (at 450.85 241.3) (diameter 0) (color 0 0 0 0) (uuid "a89fc588-db77-48b4-b453-1734a736a4d3")) 
+
+(junction (at 406.4 242.57) (diameter 0) (color 0 0 0 0) (uuid "85903fb3-0ad0-401d-890e-4a038abc4f5b")) 
+
+(junction (at 294.64 307.34) (diameter 0) (color 0 0 0 0) (uuid "9f0c5558-6f61-4b51-b65b-5ffbfa7ac6ba")) 
+
+(junction (at 302.26 294.64) (diameter 0) (color 0 0 0 0) (uuid "b8f9916e-9f44-4c1c-a212-6957ea5743e9")) (no_connect (at 351.79 161.29) (uuid "e1abea47-f8ed-4f87-a9c7-47d4a36ceda4")) (no_connect (at 351.79 168.91) (uuid "593bed3f-639c-4680-8d50-3269af82f6f7")) (no_connect (at 351.79 176.53) (uuid "55975d26-5d8b-4b71-ae30-004bbcd11deb")) (no_connect (at 351.79 191.77) (uuid "4e7b81fa-91cc-4561-b942-9b8fd08b6e08")) (no_connect (at 351.79 199.39) (uuid "0b00ff20-0de6-458c-a1c7-802329c3be6a")) (no_connect (at 248.92 73.66) (uuid "20325e6a-0fc0-480d-a986-940b7623bc18")) (no_connect (at 264.16 73.66) (uuid "0b8ea751-760b-4e4b-b1f4-753adfef016f")) (no_connect (at 279.4 73.66) (uuid "9ae0d675-8f1f-4023-a349-4ea49ba34468")) (no_connect (at 351.79 115.57) (uuid "c729f763-4c1c-461b-ba3a-245a7db16861")) (no_connect (at 287.02 73.66) (uuid "4141e75e-7f9a-4c1c-a3e1-cfff4585ef03")) (no_connect (at 294.64 73.66) (uuid "a3d6e349-a32f-4e69-83fa-f0986163eff1")) (no_connect (at 309.88 73.66) (uuid "22d5d829-8e30-4854-8975-4af781c16a88")) (no_connect (at 317.5 73.66) (uuid "b6bfd51d-c5d8-43d9-a3ee-ebfc308e5cc8")) (no_connect (at 325.12 73.66) (uuid "615f2adb-965f-4582-8ab3-db84f5226ddf")) (no_connect (at 332.74 73.66) (uuid "27d096f8-e998-401a-a4ac-6a7df3f3c050")) (no_connect (at 340.36 73.66) (uuid "752b400e-0812-461a-8134-cda2290f11db")) (no_connect (at 351.79 123.19) (uuid "032e8540-f213-43a9-8be7-ab397ae421c2")) (no_connect (at 279.4 241.3) (uuid "77e2d10d-93e3-475f-aead-5706fd0a8459")) (no_connect (at 287.02 241.3) (uuid "32dd78a1-a496-46ef-9c47-9047e16d81e7")) (no_connect (at 309.88 241.3) (uuid "da22c3f8-9611-4174-a4c1-1d2c29265764")) (no_connect (at 317.5 241.3) (uuid "e7fe09e9-568f-4f31-8136-21e46d1a8428")) (no_connect (at 340.36 241.3) (uuid "2a3fe49d-cce6-4176-ad2d-ecf543fdd4b5")) (no_connect (at 237.49 115.57) (uuid "57d2f48b-8ac5-403d-bcf2-528ed62f76f7")) (no_connect (at 237.49 168.91) (uuid "788cd295-fd13-4b31-ad39-cc35278c053e")) (no_connect (at 237.49 184.15) (uuid "61d4523b-143f-4b80-a52d-5f8bf3917777")) (no_connect (at 351.79 130.81) (uuid "955e2253-0162-4aab-923c-5389dc4ba146")) (no_connect (at 351.79 146.05) (uuid "67ca6a2c-14e9-4d53-b830-d415389fcc48")) (no_connect (at 351.79 153.67) (uuid "af37e9a9-6f28-4346-96ce-6c9461a0dec3")) 
+
+(wire (pts 
+
+(xy 302.26 59.69) 
+
+(xy 302.26 73.66)) (stroke (width 0.254) (type default)) (uuid "bc430f83-f570-4e94-9d2f-9a54e4befb34")) 
+
+(wire (pts 
+
+(xy 209.55 72.39) 
+
+(xy 209.55 73.66)) (stroke (width 0.254) (type default)) (uuid "f24f0178-0707-4945-9d4d-4c8875cf89bf")) 
+
+(wire (pts 
+
+(xy 209.55 72.39) 
+
+(xy 256.54 72.39)) (stroke (width 0.254) (type default)) (uuid "58564659-8111-4179-b772-3d2ae495f55d")) 
+
+(wire (pts 
+
+(xy 209.55 73.66) 
+
+(xy 209.55 91.44)) (stroke (width 0.254) (type default)) (uuid "aab1e9f8-9fb2-46c0-9812-5027aef28420")) 
+
+(wire (pts 
+
+(xy 256.54 72.39) 
+
+(xy 256.54 73.66)) (stroke (width 0.254) (type default)) (uuid "979778c5-b8bc-4318-8967-9d99d955002d")) 
+
+(wire (pts 
+
+(xy 351.79 184.15) 
+
+(xy 356.87 184.15)) (stroke (width 0.254) (type default)) (uuid "24076d74-a06c-4c2c-81f3-7c179d9b6ee4")) 
+
+(wire (pts 
+
+(xy 351.79 138.43) 
+
+(xy 358.14 138.43)) (stroke (width 0.254) (type default)) (uuid "5bbec04a-c08d-4b29-8e7c-63c127837806")) 
+
+(wire (pts 
+
+(xy 325.12 241.3) 
+
+(xy 325.12 245.11)) (stroke (width 0.254) (type default)) (uuid "4cd7b81e-a540-45c1-9b24-c2857b4e8c60")) 
+
+(wire (pts 
+
+(xy 175.26 153.67) 
+
+(xy 237.49 153.67)) (stroke (width 0.254) (type default)) (uuid "8d05ad93-137a-43c7-b30d-1f5c34c00e0d")) 
+
+(wire (pts 
+
+(xy 186.69 147.32) 
+
+(xy 237.49 147.32)) (stroke (width 0.254) (type default)) (uuid "8967f5e1-50eb-40c6-9e29-6aadd3c60372")) 
+
+(wire (pts 
+
+(xy 237.49 147.32) 
+
+(xy 237.49 153.67)) (stroke (width 0.254) (type default)) (uuid "51140d0a-a902-4cec-b9bb-88c6c9968f74")) 
+
+(wire (pts 
+
+(xy 186.69 125.73) 
+
+(xy 186.69 139.7)) (stroke (width 0.254) (type default)) (uuid "70abf8f1-81e7-4974-b506-069c3448499f")) 
+
+(wire (pts 
+
+(xy 186.69 139.7) 
+
+(xy 212.09 139.7)) (stroke (width 0.254) (type default)) (uuid "833ca232-bfe2-40d8-9df6-11c160adbb1c")) 
+
+(wire (pts 
+
+(xy 212.09 139.7) 
+
+(xy 212.09 146.05)) (stroke (width 0.254) (type default)) (uuid "c46358cd-6563-45f8-9b5e-86497b3475b5")) 
+
+(wire (pts 
+
+(xy 212.09 146.05) 
+
+(xy 237.49 146.05)) (stroke (width 0.254) (type default)) (uuid "0e090e1c-6acf-4692-8711-ff14db4e60bb")) 
+
+(wire (pts 
+
+(xy 271.78 60.96) 
+
+(xy 271.78 73.66)) (stroke (width 0.254) (type default)) (uuid "b3c59516-3fe3-4a14-a20d-4686d88c5510")) 
+
+(wire (pts 
+
+(xy 148.59 157.48) 
+
+(xy 148.59 161.29)) (stroke (width 0.254) (type default)) (uuid "1c360bb9-dab8-4b50-a9c0-0c289ad16005")) 
+
+(wire (pts 
+
+(xy 148.59 161.29) 
+
+(xy 168.91 161.29)) (stroke (width 0.254) (type default)) (uuid "67359470-c748-4e24-acb0-b743f31f7a76")) 
+
+(wire (pts 
+
+(xy 168.91 161.29) 
+
+(xy 237.49 161.29)) (stroke (width 0.254) (type default)) (uuid "f2158910-5d6c-45ed-982e-9f5663a7681b")) 
+
+(wire (pts 
+
+(xy 110.49 140.97) 
+
+(xy 119.38 140.97)) (stroke (width 0.254) (type default)) (uuid "4af2a722-e48f-4f51-9d28-f525b6d26553")) 
+
+(wire (pts 
+
+(xy 119.38 140.97) 
+
+(xy 119.38 176.53)) (stroke (width 0.254) (type default)) (uuid "90fea415-26cc-4d8e-849c-8ec520d10b34")) 
+
+(wire (pts 
+
+(xy 119.38 176.53) 
+
+(xy 119.38 181.61)) (stroke (width 0.254) (type default)) (uuid "ecbd70d7-e640-4363-88d0-22c3566f4bbe")) 
+
+(wire (pts 
+
+(xy 119.38 176.53) 
+
+(xy 147.32 176.53)) (stroke (width 0.254) (type default)) (uuid "f17a1f39-8db7-41d6-890f-fcfde7d01fa8")) 
+
+(wire (pts 
+
+(xy 147.32 176.53) 
+
+(xy 237.49 176.53)) (stroke (width 0.254) (type default)) (uuid "be2b3c6e-2746-4c37-8697-a0999b47c49f")) 
+
+(wire (pts 
+
+(xy 417.83 241.3) 
+
+(xy 450.85 241.3)) (stroke (width 0.254) (type default)) (uuid "666ae7ea-cfda-4cda-a931-ec18e908a9ba")) 
+
+(wire (pts 
+
+(xy 450.85 241.3) 
+
+(xy 469.9 241.3)) (stroke (width 0.254) (type default)) (uuid "494f9f7b-1621-4819-ab14-3ba1ca574fc1")) 
+
+(wire (pts 
+
+(xy 332.74 241.3) 
+
+(xy 332.74 242.57)) (stroke (width 0.254) (type default)) (uuid "5d748f4a-2b54-40e1-bf44-76909de31b6b")) 
+
+(wire (pts 
+
+(xy 332.74 242.57) 
+
+(xy 406.4 242.57)) (stroke (width 0.254) (type default)) (uuid "e4c98165-ae57-4f37-9ac4-27c0e129ae57")) 
+
+(wire (pts 
+
+(xy 406.4 242.57) 
+
+(xy 410.21 242.57)) (stroke (width 0.254) (type default)) (uuid "65c1ff16-4dd1-46c1-bf14-47c370e0aeab")) 
+
+(wire (pts 
+
+(xy 406.4 242.57) 
+
+(xy 406.4 243.84)) (stroke (width 0.254) (type default)) (uuid "1d27a3f8-77d6-40e5-8d52-172172851b51")) 
+
+(wire (pts 
+
+(xy 410.21 241.3) 
+
+(xy 410.21 242.57)) (stroke (width 0.254) (type default)) (uuid "f8b02d9a-f8ff-4a1c-9c46-d2f3cda23145")) 
+
+(wire (pts 
+
+(xy 173.99 255.27) 
+
+(xy 184.15 255.27)) (stroke (width 0.254) (type default)) (uuid "ef625a00-b669-49f4-85ec-6ccbbd07b058")) 
+
+(wire (pts 
+
+(xy 184.15 251.46) 
+
+(xy 184.15 255.27)) (stroke (width 0.254) (type default)) (uuid "03477092-814c-4a24-bd85-1c82650d8fd7")) 
+
+(wire (pts 
+
+(xy 184.15 251.46) 
+
+(xy 204.47 251.46)) (stroke (width 0.254) (type default)) (uuid "2ab930c5-5323-41f2-a55e-6fc1193c7ad1")) 
+
+(wire (pts 
+
+(xy 204.47 248.92) 
+
+(xy 204.47 251.46)) (stroke (width 0.254) (type default)) (uuid "0d010427-b36e-4f63-a528-81b8cb3296fa")) 
+
+(wire (pts 
+
+(xy 204.47 241.3) 
+
+(xy 247.65 241.3)) (stroke (width 0.254) (type default)) (uuid "8d48bec8-06fe-4bc0-8675-e38561f35a40")) 
+
+(wire (pts 
+
+(xy 247.65 241.3) 
+
+(xy 247.65 242.57)) (stroke (width 0.254) (type default)) (uuid "ed2ce3cd-46bb-4e5d-b808-4fd36825c9bb")) 
+
+(wire (pts 
+
+(xy 247.65 242.57) 
+
+(xy 256.54 242.57)) (stroke (width 0.254) (type default)) (uuid "98f5087d-78a1-4554-9be0-7b0a5e2e6b91")) 
+
+(wire (pts 
+
+(xy 256.54 241.3) 
+
+(xy 256.54 242.57)) (stroke (width 0.254) (type default)) (uuid "d106ad78-0921-4560-a878-06370ad970ff")) 
+
+(wire (pts 
+
+(xy 172.72 189.23) 
+
+(xy 172.72 191.77)) (stroke (width 0.254) (type default)) (uuid "737a2261-5b73-4aa8-94ae-ebed3072763d")) 
+
+(wire (pts 
+
+(xy 172.72 191.77) 
+
+(xy 179.07 191.77)) (stroke (width 0.254) (type default)) (uuid "7d982568-107a-4737-a6d4-8be70b9046c9")) 
+
+(wire (pts 
+
+(xy 179.07 191.77) 
+
+(xy 237.49 191.77)) (stroke (width 0.254) (type default)) (uuid "23a71aea-269a-415d-af20-f9e881bf7391")) 
+
+(wire (pts 
+
+(xy 110.49 133.35) 
+
+(xy 129.54 133.35)) (stroke (width 0.254) (type default)) (uuid "ddc47545-1dfd-438b-ad6b-fc3b9216a143")) 
+
+(wire (pts 
+
+(xy 116.84 124.46) 
+
+(xy 127.0 124.46)) (stroke (width 0.254) (type default)) (uuid "453478dc-645f-4a7f-93b2-91d0d45a6e19")) 
+
+(wire (pts 
+
+(xy 127.0 124.46) 
+
+(xy 127.0 127.0)) (stroke (width 0.254) (type default)) (uuid "4635a4d1-89af-491e-a114-e9b7325c5c38")) 
+
+(wire (pts 
+
+(xy 127.0 127.0) 
+
+(xy 129.54 127.0)) (stroke (width 0.254) (type default)) (uuid "d525a942-e162-4138-877d-40d710d6b4db")) 
+
+(wire (pts 
+
+(xy 129.54 127.0) 
+
+(xy 138.43 127.0)) (stroke (width 0.254) (type default)) (uuid "5f47aae1-4bfc-4236-954b-c18aa768af62")) 
+
+(wire (pts 
+
+(xy 129.54 127.0) 
+
+(xy 129.54 133.35)) (stroke (width 0.254) (type default)) (uuid "f7554416-b6f7-4d24-8929-78dbd4ce2a4e")) 
+
+(wire (pts 
+
+(xy 138.43 127.0) 
+
+(xy 139.7 127.0)) (stroke (width 0.254) (type default)) (uuid "b62bdbee-25db-4f64-86f4-1e5d3ac3cdc2")) 
+
+(wire (pts 
+
+(xy 139.7 127.0) 
+
+(xy 148.59 127.0)) (stroke (width 0.254) (type default)) (uuid "32102695-08ba-4f15-8805-eddf824a91e7")) 
+
+(wire (pts 
+
+(xy 148.59 127.0) 
+
+(xy 175.26 127.0)) (stroke (width 0.254) (type default)) (uuid "fabbd82d-6d9b-42f0-9769-9b9e603c7d4e")) 
+
+(wire (pts 
+
+(xy 175.26 127.0) 
+
+(xy 189.23 127.0)) (stroke (width 0.254) (type default)) (uuid "f0e8b3ad-3d6f-4a30-997b-179bd077c2ba")) 
+
+(wire (pts 
+
+(xy 189.23 127.0) 
+
+(xy 209.55 127.0)) (stroke (width 0.254) (type default)) (uuid "614c9c6b-52a1-49cf-bbcc-7ba89e92954d")) 
+
+(wire (pts 
+
+(xy 209.55 127.0) 
+
+(xy 237.49 127.0)) (stroke (width 0.254) (type default)) (uuid "c5d777c1-8089-4da9-9cfb-cc3f453fc162")) 
+
+(wire (pts 
+
+(xy 139.7 121.92) 
+
+(xy 139.7 127.0)) (stroke (width 0.254) (type default)) (uuid "75e4b974-a8b5-4583-ad22-1fe0c7494720")) 
+
+(wire (pts 
+
+(xy 148.59 127.0) 
+
+(xy 148.59 149.86)) (stroke (width 0.254) (type default)) (uuid "4191a886-e984-4392-b568-6dfd7029e12a")) 
+
+(wire (pts 
+
+(xy 175.26 127.0) 
+
+(xy 175.26 146.05)) (stroke (width 0.254) (type default)) (uuid "706b6a70-41cc-4698-a7ce-9c50d6bee060")) 
+
+(wire (pts 
+
+(xy 186.69 118.11) 
+
+(xy 189.23 118.11)) (stroke (width 0.254) (type default)) (uuid "827107d2-dd04-4c09-a320-383ce7ffdbe7")) 
+
+(wire (pts 
+
+(xy 189.23 118.11) 
+
+(xy 189.23 127.0)) (stroke (width 0.254) (type default)) (uuid "78e13798-3a06-40ef-be0a-bd092b776a56")) 
+
+(wire (pts 
+
+(xy 209.55 99.06) 
+
+(xy 209.55 127.0)) (stroke (width 0.254) (type default)) (uuid "fcf0118e-aa3b-47ab-8582-8a163ebc68d5")) 
+
+(wire (pts 
+
+(xy 237.49 123.19) 
+
+(xy 237.49 127.0)) (stroke (width 0.254) (type default)) (uuid "795f134c-6c91-489d-8809-7900ae3b836e")) 
+
+(wire (pts 
+
+(xy 237.49 127.0) 
+
+(xy 237.49 130.81)) (stroke (width 0.254) (type default)) (uuid "d10de4b3-dd48-428d-9d69-bdc27118f10d")) 
+
+(wire (pts 
+
+(xy 237.49 130.81) 
+
+(xy 237.49 138.43)) (stroke (width 0.254) (type default)) (uuid "c208b4cf-a29c-46d7-bc2c-7141a9c50ad9")) 
+
+(wire (pts 
+
+(xy 279.4 307.34) 
+
+(xy 294.64 307.34)) (stroke (width 0.254) (type default)) (uuid "6081f8f2-5315-4c4a-9a60-1556fdf2e8e3")) 
+
+(wire (pts 
+
+(xy 294.64 241.3) 
+
+(xy 297.18 241.3)) (stroke (width 0.254) (type default)) (uuid "7f4ad509-1a7c-46fe-b5bc-fc365c78b961")) 
+
+(wire (pts 
+
+(xy 294.64 307.34) 
+
+(xy 297.18 307.34)) (stroke (width 0.254) (type default)) (uuid "a6beff66-3a15-49eb-9afd-2b06980ef8ab")) 
+
+(wire (pts 
+
+(xy 297.18 241.3) 
+
+(xy 297.18 307.34)) (stroke (width 0.254) (type default)) (uuid "557144b3-8549-4e03-b557-1892cf1c1e70")) 
+
+(wire (pts 
+
+(xy 295.91 294.64) 
+
+(xy 302.26 294.64)) (stroke (width 0.254) (type default)) (uuid "2b006d0f-d072-4dc2-9eea-bfbc3651e79f")) 
+
+(wire (pts 
+
+(xy 302.26 241.3) 
+
+(xy 302.26 294.64)) (stroke (width 0.254) (type default)) (uuid "29e7d9ed-67cd-48e7-9447-783ffb6cc7b5")) 
+
+(wire (pts 
+
+(xy 302.26 294.64) 
+
+(xy 302.26 307.34)) (stroke (width 0.254) (type default)) (uuid "39535a79-a52b-4d32-8772-f3c16568e461")) 
+
+(wire (pts 
+
+(xy 116.84 132.08) 
+
+(xy 116.84 137.16)) (stroke (width 0.254) (type default)) (uuid "2fa3ce09-8f2d-4684-87cd-fbfba8f1f29a")) 
+
+(wire (pts 
+
+(xy 119.38 189.23) 
+
+(xy 119.38 194.31)) (stroke (width 0.254) (type default)) (uuid "00f33843-9663-4d0a-aa6c-52ac19daa420")) 
+
+(wire (pts 
+
+(xy 138.43 134.62) 
+
+(xy 138.43 139.7)) (stroke (width 0.254) (type default)) (uuid "f54f5cc6-4c88-4a08-b9eb-dbe0fde6329d")) 
+
+(wire (pts 
+
+(xy 162.56 109.22) 
+
+(xy 162.56 114.3)) (stroke (width 0.254) (type default)) (uuid "5c42ae84-bec8-45d6-93c6-98941d9d10c8")) 
+
+(wire (pts 
+
+(xy 248.92 241.3) 
+
+(xy 248.92 246.38)) (stroke (width 0.254) (type default)) (uuid "096ed9ab-e33b-45ed-ac31-7b1c196466eb")) 
+
+(wire (pts 
+
+(xy 264.16 241.3) 
+
+(xy 264.16 246.38)) (stroke (width 0.254) (type default)) (uuid "ccc92224-53e2-4bec-9ff0-d255a7c944d9")) 
+
+(wire (pts 
+
+(xy 264.16 241.3) 
+
+(xy 271.78 241.3)) (stroke (width 0.254) (type default)) (uuid "95932803-5982-4430-a0c9-9835421530d5")) 
+
+(wire (pts 
+
+(xy 266.7 307.34) 
+
+(xy 271.78 307.34)) (stroke (width 0.254) (type default)) (uuid "5f121e32-4393-474e-88a9-9d2a8621f369")) 
+
+(wire (pts 
+
+(xy 283.21 294.64) 
+
+(xy 288.29 294.64)) (stroke (width 0.254) (type default)) (uuid "ba9a9111-6481-45fe-b4cf-1591e87951ae")) 
+
+(wire (pts 
+
+(xy 294.64 337.82) 
+
+(xy 294.64 342.9)) (stroke (width 0.254) (type default)) (uuid "eba30424-628d-4d45-8856-87fb54688896")) 
+
+(wire (pts 
+
+(xy 294.64 337.82) 
+
+(xy 302.26 337.82)) (stroke (width 0.254) (type default)) (uuid "801463f3-addc-424f-ade6-305cea8b6843")) 
+
+(wire (pts 
+
+(xy 325.12 252.73) 
+
+(xy 325.12 257.81)) (stroke (width 0.254) (type default)) (uuid "6126caee-6027-4153-9701-a6acd93132d0")) 
+
+(wire (pts 
+
+(xy 364.49 184.15) 
+
+(xy 369.57 184.15)) (stroke (width 0.254) (type default)) (uuid "c7667792-a48d-4f34-8cea-9175a153ecff")) 
+
+(wire (pts 
+
+(xy 365.76 138.43) 
+
+(xy 370.84 138.43)) (stroke (width 0.254) (type default)) (uuid "551ad382-4e96-4b67-960f-8465408d207f")) 
+
+(wire (pts 
+
+(xy 406.4 251.46) 
+
+(xy 406.4 256.54)) (stroke (width 0.254) (type default)) (uuid "75200e0d-3d12-4daa-9cf1-1b0cb448e65c")) 
+
+(wire (pts 
+
+(xy 450.85 248.92) 
+
+(xy 450.85 254.0)) (stroke (width 0.254) (type default)) (uuid "8c466b6f-0e43-4e94-873d-feb936d9f460")) 
+
+(wire (pts 
+
+(xy 469.9 264.16) 
+
+(xy 469.9 269.24)) (stroke (width 0.254) (type default)) (uuid "4bf42795-d7b4-4a2f-bd6d-0180be496f95")) 
+
+(symbol_instances (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e/74af5fd6-595c-4bec-acad-5624965cf4d2" (reference "COR_A1") (unit 1)) (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e/6a4ab8da-2077-4a8e-be7d-1ba87de33d7d" (reference "COR_C1") (unit 1)) (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e/5dd604da-128b-40af-92b9-1882784461e3" (reference "COR_C10") (unit 1)) (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e/49959fa6-d357-4635-a973-84fe49070eef" (reference "COR_C2") (unit 1)) (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e/580af7ca-05f7-46cf-b322-af3c97630f21" (reference "COR_C3") (unit 1)) (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e/5b4c8445-0b83-4643-9ed6-444c1665bd1b" (reference "COR_C4") (unit 1)) (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e/72932e57-715d-46b4-8a72-a3121e4bbe19" (reference "COR_C5") (unit 1)) (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e/28c0e940-e577-45db-8453-8f3ed4203b4a" (reference "COR_C6") (unit 1)) (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e/b9c47f32-2e88-4fc7-91ba-08e7a0f2a178" (reference "COR_C7") (unit 1)) (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e/d5f52ad7-fb76-4c75-bef8-a9b838d081dd" (reference "COR_C8") (unit 1)) (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e/518151d6-6509-4034-aac5-b900e3f06198" (reference "COR_C9") (unit 1)) (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e/4786a498-7c24-4596-babe-edf6c0650f88" (reference "COR_L1") (unit 1)) (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e/5f50cf16-dba3-4b3e-89df-7e15e57ece11" (reference "COR_R1") (unit 1)) (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e/fbaf7bfd-1ad2-4101-a5ef-8f786bc6aadd" (reference "COR_R2") (unit 1)) (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e/4196ded3-81ee-47cb-940f-b7447c08f4d5" (reference "COR_R3") (unit 1)) (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e/60e8a3bc-cdaa-4a93-9d3b-df456ea688b3" (reference "COR_R4") (unit 1)) (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e/5bb953bd-2c23-4878-84fd-3acf848f6abf" (reference "COR_R5") (unit 1)) (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e/fe1b13bf-5124-4df4-978c-5b828bebb203" (reference "COR_R6") (unit 1)) (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e/da090d37-f27e-4899-80bf-f6996c460846" (reference "COR_TP1") (unit 1)) (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e/c4c6f2b2-432d-47e5-992f-80febcd3b2f2" (reference "COR_TP2") (unit 1)) (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e/c96b5dbc-62fe-4bb5-ae34-7275f64f9930" (reference "COR_TP3") (unit 1)) (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e/32e26204-001e-4e5e-b1a1-abe813fd8e46" (reference "COR_TP4") (unit 1)) (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e/4e52dc2a-b2f1-4b5d-9c10-42f294e18ee2" (reference "COR_TP5") (unit 1)) (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e/8767f77f-dcd4-4518-8219-dc6f7ac054bb" (reference "COR_U1") (unit 1)) (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e/872fd0c2-4767-45aa-844a-8a70f99185ac" (reference "COR_Y1") (unit 1)) (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e/c85ff532-8474-4c7f-971c-fe735cf71f3b" (reference "#PWR23") (unit 1)) (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e/5962c33c-7fa1-4058-b132-9d5b98997080" (reference "#PWR24") (unit 1)) (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e/139bb175-2f16-4e6c-ac6f-6d2f7d3c5879" (reference "#PWR25") (unit 1)) (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e/af7c5849-0da8-4b33-ad5e-4a27c60a66c0" (reference "#PWR26") (unit 1)) (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e/2bf30d4d-cf63-43ee-8251-00bc2925c0e0" (reference "#PWR27") (unit 1)) (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e/35bca096-dafb-474c-8229-ebdbe84c75cf" (reference "#PWR28") (unit 1)) (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e/9eefec19-79c4-4f46-9b29-b0b896110a9a" (reference "#PWR29") (unit 1)) (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e/d410a8a1-d752-4225-b437-a63084add349" (reference "#PWR30") (unit 1)) (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e/f964d903-24d2-4a04-ab0f-a2ab8bdfc6bf" (reference "#PWR31") (unit 1)) (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e/77784ca7-dabf-427e-bc68-518cc2dfa469" (reference "#PWR32") (unit 1)) (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e/06ba8c73-9a48-428e-bd9f-a0fb3a94b311" (reference "#PWR33") (unit 1)) (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e/07267c90-9279-4b15-a9cc-e56e908b9f67" (reference "#PWR34") (unit 1)) (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e/957b7f9f-230d-4320-b9ae-0224bb60819b" (reference "#PWR35") (unit 1)) (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e/db8b2abb-e86e-4c51-bb64-f7063f5a9c0e" (reference "#PWR36") (unit 1)) (path "/87381712-8608-4423-a510-d05b0ec4a653/ec6489b1-6d8e-48d7-9a78-0b6dcbaf6a5e/957edffc-e7c5-4578-881d-4aa31710319d" (reference "#PWR37") (unit 1))))

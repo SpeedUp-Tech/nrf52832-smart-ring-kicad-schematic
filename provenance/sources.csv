@@ -1,0 +1,8 @@
+covered_path,owner_or_upstream,source,version_or_date,license,status,modifications,notice
+hardware/**/*.kicad_pro; hardware/**/*.kicad_sch,SpeedUp,Supplied SpeedUp project evidence,2026-08-18; verified readable with KiCad 10 on 2026-09-03,CERN-OHL-P-2.0,included,Standalone unverified libraries omitted,LICENSE_SCOPE.md
+bom/BillOfMaterials.csv,SpeedUp,Exported from the included KiCad schematic,2026-08-18,CC BY 4.0,included,Unmodified source BOM; schematic remains source of truth,README.md
+evidence/schematic-overview.png; evidence/core-schematic.png; evidence/power-schematic.png; evidence/sensors-schematic.png,SpeedUp,Rendered from the matching supplied schematic files,2026-08-19,CC BY 4.0,included,Renamed for public engineering evidence,LICENSE_SCOPE.md
+evidence/block-diagram.png; evidence/product-requirement.png,SpeedUp,Matching SpeedUp project evidence published with the project Blog,2026-08-19,CC BY 4.0,included,Renamed for repository consistency,LICENSE_SCOPE.md
+source bundle Smart_Ring/symbols/*.kicad_sym,Unverified,Supplied source bundle,unknown,unknown,excluded,10 standalone symbol libraries not redistributed,provenance/EXCLUDED_ASSETS.md
+source bundle Smart_Ring/libs/ProjectFootprints.pretty/*.kicad_mod,Unverified,Supplied source bundle,unknown,unknown,excluded,13 standalone footprints not redistributed,provenance/EXCLUDED_ASSETS.md
+source bundle Smart_Ring/sym-lib-table; Smart_Ring/fp-lib-table,Unverified,Supplied source bundle,unknown,unknown,excluded,Two project-local library tables not redistributed,provenance/EXCLUDED_ASSETS.md

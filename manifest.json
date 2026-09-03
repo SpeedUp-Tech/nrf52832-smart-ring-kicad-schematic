@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "project": "nrf52832-smart-ring-kicad-schematic",
+  "release_version": "v0.1.0",
+  "generated_date": "2026-08-18",
+  "publication_ready_at_prepare_time": true,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 88,
+      "sha256": "e96ec9eaf22fa8fb5aed76e84fdd294b4c2955cb1eaa35b483e87284aa8c2cd1"
+    },
+    {
+      "path": "ENGINEERING_LIMITATIONS.md",
+      "bytes": 2383,
+      "sha256": "c67e9b8d35777b0f85e97d0630d6bd00a1565dc41a570d7ef838acf6bd55495b"
+    },
+    {
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "bytes": 18657,
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    },
+    {
+      "path": "LICENSES/CERN-OHL-P-2.0.txt",
+      "bytes": 8852,
+      "sha256": "6e471d647db50527d0c75ee5f1a55a74012ab177c73282bef0bdc7f6562b7ded"
+    },
+    {
+      "path": "LICENSE_SCOPE.md",
+      "bytes": 1054,
+      "sha256": "426be7eeea0d84e5228aed6582ae694e43b1c32ea77d3981fb1ab2e3fe0309dc"
+    },
+    {
+      "path": "PRODUCT_REQUIREMENT.md",
+      "bytes": 292,
+      "sha256": "08de1be21263718b28e071841a9ba2cd55c3d5e6348b6ad4acf587e5662edd7f"
+    },
+    {
+      "path": "PUBLISHING_CHECKLIST.md",
+      "bytes": 752,
+      "sha256": "8d25d8b5d3a3b233bd8b315907d50c2561d01012886e9b5915cde64c9c192696"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5962,
+      "sha256": "725545ce7c442ce612389238c09b99db088c24ca17cb7a11e7834a5a5149fcbd"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 1351,
+      "sha256": "c23120e48cd513df8120faeae54d3ab5acdb36b29f49f2b3d89e5941bc8a7c0b"
+    },
+    {
+      "path": "bom/BillOfMaterials.csv",
+      "bytes": 1421,
+      "sha256": "d0f4e86c9fa2f280df73ebc9b4fce38906ba726705e16c312bc323be3536791d"
+    },
+    {
+      "path": "evidence/block-diagram.png",
+      "bytes": 406843,
+      "sha256": "16956e3bab0b896696ae21131f2e3d9aa98af60bcc2a6347a00ff1f1c1aa40db"
+    },
+    {
+      "path": "evidence/core-schematic.png",
+      "bytes": 254106,
+      "sha256": "221e3da3bc096c5839da0533944fd117990cbd4595cb0170537af32daa1aa9b3"
+    },
+    {
+      "path": "evidence/power-schematic.png",
+      "bytes": 113550,
+      "sha256": "ea1d685b325d2e63c5b0ec2009355bf570c0d97cae321c0f84cbd4d9fb1bd11f"
+    },
+    {
+      "path": "evidence/product-requirement.png",
+      "bytes": 136815,
+      "sha256": "bf27345549b99d58341bfcc6c2f5530365853ae3577e9ca0abf194fa30e10290"
+    },
+    {
+      "path": "evidence/schematic-overview.png",
+      "bytes": 114967,
+      "sha256": "10629ca63c60422fed4dfc428b1c36a5c26414d7cb6c32605dfb6338c4f312af"
+    },
+    {
+      "path": "evidence/sensors-schematic.png",
+      "bytes": 177729,
+      "sha256": "219b4b67cee38dbcba005126548549bc3e408a63c7ecd039b9a12d9a0b03e497"
+    },
+    {
+      "path": "hardware/Smart_Ring.kicad_pro",
+      "bytes": 144,
+      "sha256": "ee0346e7c4d8a4b20a53bbcb712f3ca594ddc8830dec9be2e2950694fa5b9d06"
+    },
+    {
+      "path": "hardware/Smart_Ring.kicad_sch",
+      "bytes": 12305,
+      "sha256": "dd4e1b2f9b655279bacc16d4dbbc6d730c61595c67ea209e41816723f0098f73"
+    },
+    {
+      "path": "hardware/modules/CORE.kicad_sch",
+      "bytes": 114662,
+      "sha256": "1476e5ce2c843e80785b5676668020e9d9d4ed15d8e7c4928718957fb0245aa2"
+    },
+    {
+      "path": "hardware/modules/POWER.kicad_sch",
+      "bytes": 69670,
+      "sha256": "3aae43642f59ef106ea40e2afffc4f77a34e419c208edb5e6c8f6f59b41dc547"
+    },
+    {
+      "path": "hardware/modules/SENSORS.kicad_sch",
+      "bytes": 47404,
+      "sha256": "b8645aea40023a14bc0f5442bac85be0d0f86d15b24c212eea12e65d37118852"
+    },
+    {
+      "path": "provenance/EXCLUDED_ASSETS.md",
+      "bytes": 919,
+      "sha256": "3a086b1bbf86da7f6219f6bab9241082eef16c7f140f1444c70b0c2a608a796f"
+    },
+    {
+      "path": "provenance/THIRD_PARTY_NOTICES.md",
+      "bytes": 1351,
+      "sha256": "c23120e48cd513df8120faeae54d3ab5acdb36b29f49f2b3d89e5941bc8a7c0b"
+    },
+    {
+      "path": "provenance/sources.csv",
+      "bytes": 1565,
+      "sha256": "18a7604118a6f9aabada0d8826c1b00924991c30b32ec8f07ac02ebade9a8005"
+    }
+  ]
+}
