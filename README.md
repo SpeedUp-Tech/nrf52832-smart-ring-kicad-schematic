@@ -1,93 +1,78 @@
 # nRF52832 Smart Ring KiCad Schematic
 
-> Schematic-stage draft for engineering review. This repository does not claim electrical validation, safety, compliance, manufacturability, or production readiness.
+This repository contains an editable KiCad 10 schematic for a compact smart ring built around the nRF52832. Battery charging and regulation, BLE compute and RF, and optical and motion sensing are separated into three hierarchical sheets for engineering review.
 
-Editable four-sheet KiCad schematic for a compact nRF52832 smart ring with optical PPG sensing, motion sensing, battery charging, and a low-noise 1.8 V rail, generated with SpeedUp for engineering review.
-
-SpeedUp is an AI schematic generator that turns product requirements into structured schematic sheets and an editable KiCad project for engineering review.
+[Download v0.1.1](https://github.com/SpeedUp-Tech/nrf52832-smart-ring-kicad-schematic/releases/tag/v0.1.1) · [Open the live demo](https://speed-up.ai/demo/nrf52832-smart-ring/) · [Read the project case study](https://speed-up.ai/blog/smart-ring-circuit-design-nrf52832-max30101/)
 
 ![Smart ring architecture with power, BLE compute, and biometric sensing](evidence/block-diagram.png)
 
-## Project snapshot
+## At a glance
 
-| Field | Project evidence |
-|---|---|
-| Product concept | Compact smart ring for sleep and heart-rate monitoring |
-| Schematic structure | Top-level sheet plus `POWER`, `CORE`, and `SENSORS` hierarchical sheets |
-| Main components | nRF52832 BLE SoC, MAX30101 PPG sensor, LIS2DW12 accelerometer, MCP73831 charger, TPS7A0218 1.8 V LDO |
-| BOM | 25 line items and 50 placed quantities |
-| Included output | Editable KiCad project, module schematics, BOM, architecture image, and schematic evidence |
-| Not included | PCB layout, firmware, mechanical CAD, optical validation, RF tuning, manufacturing files, or test results |
-| Status | First schematic draft for qualified engineering review |
+| | |
+| --- | --- |
+| Main controller | nRF52832-QFAA-R Bluetooth Low Energy SoC |
+| Sensing | MAX30101 optical PPG sensor and LIS2DW12 accelerometer |
+| Power | MCP73831 single-cell charger and TPS7A0218 1.8 V LDO |
+| Interfaces | I2C, sensor interrupts, reset, SWD, and battery sensing |
+| Project format | KiCad 10 top-level schematic plus three hierarchical sheets |
+| BOM | 25 line items covering 50 placed parts |
 
-## Original product requirement
+## Project scope
 
-> design a smart ring mainly used for sleep and heart rate monitoring
+The original requirement was to design a smart ring mainly for sleep and heart-rate monitoring. The resulting first draft covers the electronics needed for optical pulse sensing, motion sensing, BLE processing, battery charging, and a regulated 1.8 V system rail.
 
 The complete public requirement is preserved in [PRODUCT_REQUIREMENT.md](PRODUCT_REQUIREMENT.md).
 
-## What SpeedUp produced
+## Schematic structure
 
-SpeedUp converted the product requirement into a structured, editable KiCad project package. The repository contains the evidence actually present in the audited bundle:
-
-- `hardware/` — Editable KiCad hardware files (5 files).
-- `bom/` — Bill of materials (1 file).
-- `evidence/` — Block diagrams, schematic screenshots, and other project evidence (6 files).
-- `LICENSES/` — Approved license texts and references (2 files).
-
-This release does not claim to include PCB placement, routing, Gerbers, firmware, simulation, or bench validation.
-
-Some standalone project-local library exports are intentionally absent from this public package; see [provenance/EXCLUDED_ASSETS.md](provenance/EXCLUDED_ASSETS.md).
-
-## Architecture and editable evidence
-
-The generated project separates three engineering domains:
-
-- `POWER` accepts the charging input and protected cell, manages single-cell charging, reports charge status, senses battery voltage, and generates `1V8_SYS`.
-- `CORE` contains the nRF52832, clocks, decoupling, SWD access, the BLE antenna path, I2C, and sensor interrupt connections.
-- `SENSORS` connects the MAX30101 optical PPG sensor and LIS2DW12 accelerometer to the shared I2C bus and dedicated interrupt signals.
+| Sheet | Role |
+| --- | --- |
+| [`POWER`](hardware/modules/POWER.kicad_sch) | Charging input, protected cell connection, charge status, battery sensing, and the `1V8_SYS` rail |
+| [`CORE`](hardware/modules/CORE.kicad_sch) | nRF52832, clocks, decoupling, SWD access, BLE antenna path, I2C, and interrupt connections |
+| [`SENSORS`](hardware/modules/SENSORS.kicad_sch) | MAX30101 PPG sensor and LIS2DW12 accelerometer on the shared I2C bus |
 
 ![Top-level KiCad schematic linking the POWER, CORE, and SENSORS sheets](evidence/schematic-overview.png)
 
-The top-level sheet exposes named interfaces including `1V8_SYS`, `LED_VBAT`, `BAT_SENSE`, `CHG_STATUS_N`, `I2C0_SCL`, `I2C0_SDA`, `PPG_INT_N`, `IMU_INT`, `RESET_N`, `SWD_CLK`, and `SWD_IO`. The individual module files remain editable under `hardware/modules/`.
+The module sheets remain editable under `hardware/modules/`. Additional rendered views are available for the [nRF52832 core](evidence/core-schematic.png), [sensor sheet](evidence/sensors-schematic.png), and [charging and power sheet](evidence/power-schematic.png).
 
-Additional rendered evidence is available for the [nRF52832 core](evidence/core-schematic.png), [sensor sheet](evidence/sensors-schematic.png), and [charging and power sheet](evidence/power-schematic.png).
+## Repository contents
 
-## BOM highlights
+| Path | Contents |
+| --- | --- |
+| [`hardware/`](hardware/) | Editable KiCad project, top-level schematic, and three hierarchical sheets |
+| [`bom/BillOfMaterials.csv`](bom/BillOfMaterials.csv) | Project bill of materials |
+| [`evidence/`](evidence/) | Architecture image, requirement capture, and rendered schematic views |
+| [`PRODUCT_REQUIREMENT.md`](PRODUCT_REQUIREMENT.md) | Public source requirement |
+| [`ENGINEERING_LIMITATIONS.md`](ENGINEERING_LIMITATIONS.md) | Review boundaries and unresolved engineering checks |
+| [`LICENSE_SCOPE.md`](LICENSE_SCOPE.md) | License scope for SpeedUp-created project files and documentation |
 
-The included CSV identifies the concrete first-draft parts and references, including:
+SpeedUp generated the structured schematic package from the product requirement. Some standalone project-local library exports are intentionally absent from the public package; see [provenance/EXCLUDED_ASSETS.md](provenance/EXCLUDED_ASSETS.md).
 
-- `NRF52832-QFAA-R` BLE SoC;
-- `MAX30101EFD+T` optical PPG sensor;
-- `LIS2DW12TR` low-power accelerometer;
-- `MCP73831T-2ATI/OT` single-cell charger;
-- `TPS7A0218PDQNR` 1.8 V LDO;
-- `KH-1608-H08` chip antenna, crystal, RF passives, protection, decoupling, and nine test points.
+## Bill of materials
 
-The BOM is evidence of the generated design choices, not approval of part availability, ratings, symbols, footprints, or suitability for a wearable product.
+The included BOM identifies the main first-draft parts and references, including the nRF52832 BLE SoC, MAX30101 PPG sensor, LIS2DW12 accelerometer, MCP73831 charger, TPS7A0218 LDO, chip antenna, crystal, protection parts, decoupling, and test points.
+
+These entries document the generated design choices. They are not approval of part availability, ratings, symbols, footprints, or suitability for a wearable product.
 
 ## Open in KiCad
 
-1. Install KiCad 10 or a compatible version.
-2. Download and extract the latest release, or clone this repository.
-3. Open the `.kicad_pro` file under `hardware/`.
-4. Review embedded symbols, hierarchy, pin mappings, and footprint assignment strings. Standalone library exports listed in [provenance/EXCLUDED_ASSETS.md](provenance/EXCLUDED_ASSETS.md) were excluded from the public package.
-
-## Download
-
-[Download the public editable KiCad project package from the latest GitHub Release](https://github.com/SpeedUp-Tech/nrf52832-smart-ring-kicad-schematic/releases/latest).
-
-Release version: `v0.1.0`. This project was generated from product requirements using SpeedUp and is intended as a starting point for engineering review.
+1. Download and extract the [v0.1.1 release](https://github.com/SpeedUp-Tech/nrf52832-smart-ring-kicad-schematic/releases/tag/v0.1.1), or clone this repository.
+2. Open `hardware/Smart_Ring.kicad_pro` in KiCad 10 or a compatible version.
+3. Review embedded symbols, hierarchy, pin mappings, and footprint assignments before making engineering decisions.
 
 ## Engineering status
 
-Read [ENGINEERING_LIMITATIONS.md](ENGINEERING_LIMITATIONS.md) before using or modifying the files. Component choices, ratings, power behavior, interfaces, protection, thermal assumptions, RF/EMC, safety, compliance, test, manufacturing, and production release all require qualified engineering review.
+This is a schematic-stage draft for engineering review. It does not establish electrical validation, safety, compliance, manufacturability, or production readiness.
 
-For this project, the next review should focus on battery and charging limits, peak and sleep current, PPG LED current and optical geometry, accelerometer orientation and interrupt behavior, I2C electrical details, RF matching and enclosure detuning, SWD access, component footprints, mechanical fit, skin-contact materials, and the boundary between wellness use and regulated medical claims.
+The next review should focus on battery and charging limits, peak and sleep current, PPG LED current and optical geometry, accelerometer orientation and interrupt behavior, I2C electrical details, RF matching and enclosure detuning, SWD access, component footprints, mechanical fit, skin-contact materials, and the boundary between wellness use and regulated medical claims. See [ENGINEERING_LIMITATIONS.md](ENGINEERING_LIMITATIONS.md) for the full review boundary.
 
 ## Licensing and provenance
 
 See [LICENSE_SCOPE.md](LICENSE_SCOPE.md) and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). Copyright and license scope do not establish engineering fitness or transfer rights in third-party materials.
+
+## About SpeedUp
+
+SpeedUp is an AI schematic generator that turns product requirements into structured schematic sheets and an editable KiCad project for engineering review.
 
 ## Project links
 
