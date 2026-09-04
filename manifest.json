@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "project": "nrf52832-smart-ring-kicad-schematic",
-  "release_version": "v0.1.1",
+  "release_version": "v0.1.2",
   "generated_date": "2026-08-18",
   "publication_ready_at_prepare_time": true,
   "files": [
@@ -42,8 +42,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 5422,
-      "sha256": "d47923c118478d317866a2e6d3fe1665680095097558ef83ab0942411f8e651d"
+      "bytes": 5976,
+      "sha256": "6a710ac32db581cc575db91b5ee29dc10ef54741c24cfd56e997ae2823d79faf"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",

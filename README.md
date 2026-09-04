@@ -2,7 +2,7 @@
 
 This repository contains an editable KiCad 10 schematic for a compact smart ring built around the nRF52832. Battery charging and regulation, BLE compute and RF, and optical and motion sensing are separated into three hierarchical sheets for engineering review.
 
-[Download v0.1.1](https://github.com/SpeedUp-Tech/nrf52832-smart-ring-kicad-schematic/releases/tag/v0.1.1) · [Open the live demo](https://speed-up.ai/demo/nrf52832-smart-ring/) · [Read the project case study](https://speed-up.ai/blog/smart-ring-circuit-design-nrf52832-max30101/)
+[Download v0.1.2](https://github.com/SpeedUp-Tech/nrf52832-smart-ring-kicad-schematic/releases/tag/v0.1.2) · [Open the live demo](https://speed-up.ai/demo/nrf52832-smart-ring/) · [Read the project case study](https://speed-up.ai/blog/smart-ring-circuit-design-nrf52832-max30101/)
 
 ![Smart ring architecture with power, BLE compute, and biometric sensing](evidence/block-diagram.png)
 
@@ -54,9 +54,17 @@ The included BOM identifies the main first-draft parts and references, including
 
 These entries document the generated design choices. They are not approval of part availability, ratings, symbols, footprints, or suitability for a wearable product.
 
+## Key component documentation
+
+- [Nordic Semiconductor nRF52832 product specification](https://docs.nordicsemi.com/r/bundle/ps_nrf52832)
+- [Analog Devices MAX30101 product page and data sheet](https://www.analog.com/en/products/max30101.html)
+- [STMicroelectronics LIS2DW12 product page and data sheet](https://www.st.com/en/mems-and-sensors/lis2dw12.html)
+- [Microchip MCP73831 product page and data sheet](https://www.microchip.com/en-us/product/mcp73831)
+- [Texas Instruments TPS7A02 product page and data sheet](https://www.ti.com/product/TPS7A02)
+
 ## Open in KiCad
 
-1. Download and extract the [v0.1.1 release](https://github.com/SpeedUp-Tech/nrf52832-smart-ring-kicad-schematic/releases/tag/v0.1.1), or clone this repository.
+1. Download and extract the [v0.1.2 release](https://github.com/SpeedUp-Tech/nrf52832-smart-ring-kicad-schematic/releases/tag/v0.1.2), or clone this repository.
 2. Open `hardware/Smart_Ring.kicad_pro` in KiCad 10 or a compatible version.
 3. Review embedded symbols, hierarchy, pin mappings, and footprint assignments before making engineering decisions.
 
