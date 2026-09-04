@@ -1,6 +1,6 @@
 # nRF52832 Smart Ring KiCad Schematic
 
-This repository contains an editable KiCad 10 schematic for a compact smart ring built around the nRF52832. Battery charging and regulation, BLE compute and RF, and optical and motion sensing are separated into three hierarchical sheets for engineering review.
+Generated with SpeedUp from a product requirement, this repository contains an editable KiCad 10 schematic for a compact smart ring built around the nRF52832 and prepared for engineering review. Battery charging and regulation, BLE compute and RF, and optical and motion sensing are separated into three hierarchical sheets.
 
 [Download v0.1.2](https://github.com/SpeedUp-Tech/nrf52832-smart-ring-kicad-schematic/releases/tag/v0.1.2) · [Open the live demo](https://speed-up.ai/demo/nrf52832-smart-ring/) · [Read the project case study](https://speed-up.ai/blog/smart-ring-circuit-design-nrf52832-max30101/)
 
